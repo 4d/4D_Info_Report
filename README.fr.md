@@ -1,8 +1,8 @@
-[![Version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/release_inforeport.json)](https://github.com/4eDimension/4DIR/releases/latest/)[![4D version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/version_4dir.json)](<>)[![Downloads](https://img.shields.io/github/downloads/4eDimension/4DIR/total.svg)](https://GitHub.com/4eDimension/4DIR/releases/latest/)![maintenance-status](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)![Maintainer](https://img.shields.io/badge/maintainer-ThomasSchlumberger-blue)<br>[![support mac](https://img.shields.io/badge/macOS-000000.svg?style=flat-square&logo=apple&labelColor=000000&logoColor=white)](<>)[![support windows](https://img.shields.io/badge/windows-0078D6.svg?style=flat-square&logo=MODX&logoColor=white)](<>)
+[![Version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/release_inforeport.json)](https://github.com/4d/4D_Info_Report/releases/latest/)[![4D version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/version_4dir.json)](<>)[![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/total.svg)](https://GitHub.com/4d/4D_Info_Report/releases/latest/)![maintenance-status](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)![Maintainer](https://img.shields.io/badge/maintainer-ThomasSchlumberger-blue)<br>[![support mac](https://img.shields.io/badge/macOS-000000.svg?style=flat-square&logo=apple&labelColor=000000&logoColor=white)](<>)[![support windows](https://img.shields.io/badge/windows-0078D6.svg?style=flat-square&logo=MODX&logoColor=white)](<>)
 
 # Outil 4D_Info_Report
 
-![info_report](https://github.com/4eDimension/4DIR/blob/main/images/4DIR.png)
+![info_report](https://github.com/4d/4D_Info_Report/blob/main/images/4DIR.png)
 
 ## Traduction du fichier README
 
@@ -51,8 +51,8 @@ Le composant`4D_Info_Report`fournit un grand nombre d’informations :
 > [!NOTE]
 >
 > -   Le composant sera présent dans le dossier :
->     -   ~/Bibliothèque/Caches/4D/Dependencies/.github/4eDimension/4DIR/ (sur Mac)
->     -   ~\\AppData\\Local\\4D\\Dependencies.github\\4eDimension\\4DIR\\ (sous Windows)
+>     -   ~/Bibliothèque/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (sur Mac)
+>     -   ~\AppData\Local\4D\Dependencies.github\4d\4D_Info_Report\ (sous Windows)
 
 **_Procedure n°2:_**
 
@@ -108,42 +108,42 @@ Vous pouvez analyser ces rapports :
 
 ## Télécharger
 
--   référence du composant :[ChD_Info_Report_vch_80_Ref_v40.pdf](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_80_Ref_v40.pdf)
+-   référence du composant :[ChD_Info_Report_vch_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_80_Ref_v40.pdf)
 
--   base de données hôte (19) avec quelques exemples de méthodes partagées par l'hôte (veuillez ajouter le composant dans le dossier "Components" pour votre test :[4D_Info_Report_Host_T_v9_19.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_Host_T_v9_19.zip)
+-   base de données hôte (19) avec quelques exemples de méthodes partagées par l'hôte (veuillez ajouter le composant dans le dossier "Components" pour votre test :[4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_Host_T_v9_19.zip)
 
--   composant pour la version 4D 20 R5 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report-20-R5.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report-20-R5.zip)
+-   composant pour la version 4D 20 R5 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report-20-R5.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-R5.zip)
 
--   composant pour la version 4D 20 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report-20-LTS.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report-20-LTS.zip)
+-   composant pour la version 4D 20 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
 
--   composant pour la version 4D 19 R6 (compilé uniquement pour processeur Intel/AMD) :[4D_Info_Report_v4_81_I_19R6.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_81_I_19R6.zip)
+-   composant pour la version 4D 19 R6 (compilé uniquement pour processeur Intel/AMD) :[4D_Info_Report_v4_81_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_I_19R6.zip)
 
--   composant pour la version 4D 19 R6 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report_v4_81_IS_19R6.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_81_IS_19R6.zip)
+-   composant pour la version 4D 19 R6 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report_v4_81_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_IS_19R6.zip)
 
--   composant pour la version 4D 19 (compilé uniquement pour processeur Intel/AMD) :[4D_Info_Report_v4_81_I_19.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_81_I_19.zip)
+-   composant pour la version 4D 19 (compilé uniquement pour processeur Intel/AMD) :[4D_Info_Report_v4_81_I_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_I_19.zip)
 
--   composant pour la version 4D 19 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report_v4_81_IS_19.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_81_IS_19.zip)
+-   composant pour la version 4D 19 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report_v4_81_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_IS_19.zip)
 
 <br>
 
 ## Archives
 
--   composant pour la version 4D v18 :[4D_Info_Report_v4_65_v18.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_65_v18.zip)
+-   composant pour la version 4D v18 :[4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_65_v18.zip)
 
--   composant pour la version 4D v17 (compilé uniquement pour le 64 bits) :[4D_Info_Report_v4_33_64-bit_v17.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_33_64-bit_v17.zip)
+-   composant pour la version 4D v17 (compilé uniquement pour le 64 bits) :[4D_Info_Report_v4_33_64-bit_v17.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_33_64-bit_v17.zip)
 
--   composant pour la version 4D v17 (également compilé pour le 64 bits) :[4D_Info_Report_v4_33_v17.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_33_v17.zip)
+-   composant pour la version 4D v17 (également compilé pour le 64 bits) :[4D_Info_Report_v4_33_v17.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_33_v17.zip)
 
--   base de données hôte (v17) avec quelques exemples de méthodes partagées par l'hôte (veuillez ajouter le composant dans le dossier "Components" pour votre test :[4D_Info_Report_Host_T_v8_v17.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_Host_T_v8_v17.zip)
+-   base de données hôte (v17) avec quelques exemples de méthodes partagées par l'hôte (veuillez ajouter le composant dans le dossier "Components" pour votre test :[4D_Info_Report_Host_T_v8_v17.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_Host_T_v8_v17.zip)
 
--   composant pour la version 4D v16 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZC_v16_rev3.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZC_v16_rev3.zip)
+-   composant pour la version 4D v16 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZC_v16_rev3.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZC_v16_rev3.zip)
 
--   composant pour la version 4D v15 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ8_v15_rev2.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
+-   composant pour la version 4D v15 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ8_v15_rev2.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
 
--   composant pour la version 4D v14 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ2_v14_rev1.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
+-   composant pour la version 4D v14 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ2_v14_rev1.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
 
--   composant pour la version 4D v13 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ2_v13_rev1.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
+-   composant pour la version 4D v13 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ2_v13_rev1.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
 
--   composant pour la version 4D v12 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ_v12.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZ_v12.zip)
+-   composant pour la version 4D v12 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ_v12.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ_v12.zip)
 
--   base de données hôte (v12) avec quelques exemples de méthodes partagées par l'hôte (veuillez ajouter le composant dans le dossier "Components" pour votre test :[4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_Host_T_v6_v12.zip)
+-   base de données hôte (v12) avec quelques exemples de méthodes partagées par l'hôte (veuillez ajouter le composant dans le dossier "Components" pour votre test :[4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_Host_T_v6_v12.zip)

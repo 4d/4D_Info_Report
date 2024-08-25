@@ -1,8 +1,8 @@
-[![Version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/release_inforeport.json)](https://github.com/4eDimension/4DIR/releases/latest/)[![4D version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/version_4dir.json)](<>)[![Downloads](https://img.shields.io/github/downloads/4eDimension/4DIR/total.svg)](https://GitHub.com/4eDimension/4DIR/releases/latest/)![maintenance-status](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)![Maintainer](https://img.shields.io/badge/maintainer-ThomasSchlumberger-blue)<br>[![support mac](https://img.shields.io/badge/macOS-000000.svg?style=flat-square&logo=apple&labelColor=000000&logoColor=white)](<>)[![support windows](https://img.shields.io/badge/windows-0078D6.svg?style=flat-square&logo=MODX&logoColor=white)](<>)
+[![Version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/release_inforeport.json)](https://github.com/4d/4D_Info_Report/releases/latest/)[![4D version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/version_4dir.json)](<>)[![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/total.svg)](https://GitHub.com/4d/4D_Info_Report/releases/latest/)![maintenance-status](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)![Maintainer](https://img.shields.io/badge/maintainer-ThomasSchlumberger-blue)<br>[![support mac](https://img.shields.io/badge/macOS-000000.svg?style=flat-square&logo=apple&labelColor=000000&logoColor=white)](<>)[![support windows](https://img.shields.io/badge/windows-0078D6.svg?style=flat-square&logo=MODX&logoColor=white)](<>)
 
 # ツール 4D_Info_Report
 
-![info_report](https://github.com/4eDimension/4DIR/blob/main/images/4DIR.png)
+![info_report](https://github.com/4d/4D_Info_Report/blob/main/images/4DIR.png)
 
 ## READMEの翻訳
 
@@ -51,8 +51,8 @@
 > [!NOTE]
 >
 > -   コンポーネントは次のフォルダーに存在します。
->     -   ~/ライブラリ/キャッシュ/4D/依存関係/.github/4eDimension/4DIR/ (Mac の場合)
->     -   ~\\AppData\\Local\\4D\\Dependency.github\\4eDimension\\4DIR\\ (Windows の場合)
+>     -   ~/ライブラリ/キャッシュ/4D/依存関係/.github/4d/4D_Info_Report/ (Mac の場合)
+>     -   ~\AppData\Local\4D\Dependency.github\4d\4D_Info_Report\ (Windows の場合)
 
 **_手順 2:_**
 
@@ -108,42 +108,42 @@
 
 ## ダウンロード
 
--   コンポーネントの参照:[ChD_Info_Report_vch_80_Ref_v40.pdf](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_80_Ref_v40.pdf)
+-   コンポーネントの参照:[ChD_Info_Report_vch_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_80_Ref_v40.pdf)
 
--   ホスト データベース (19) といくつかのホスト共有メソッドの例 (テスト用にコンポーネントを「コンポーネント」フォルダーに追加してください)[４Ｄ＿いんふぉ＿れぽｒｔ＿ほｓｔ＿Ｔ＿ｖ９＿１９。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_Host_T_v9_19.zip)
+-   ホスト データベース (19) といくつかのホスト共有メソッドの例 (テスト用にコンポーネントを「コンポーネント」フォルダーに追加してください)[４Ｄ＿いんふぉ＿れぽｒｔ＿ほｓｔ＿Ｔ＿ｖ９＿１９。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_Host_T_v9_19.zip)
 
--   バージョン 4D 20 R5 のコンポーネント (Apple Silicon プロセッサー用にもコンパイル):[４Ｄ＿いんふぉ＿れぽｒｔー２０ーＲ５。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report-20-R5.zip)
+-   バージョン 4D 20 R5 のコンポーネント (Apple Silicon プロセッサー用にもコンパイル):[４Ｄ＿いんふぉ＿れぽｒｔー２０ーＲ５。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-R5.zip)
 
--   バージョン 4D 20 のコンポーネント (Apple Silicon プロセッサー用にもコンパイルされています):[4D_Info_Report-20-LTS.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report-20-LTS.zip)
+-   バージョン 4D 20 のコンポーネント (Apple Silicon プロセッサー用にもコンパイルされています):[4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
 
--   バージョン 4D 19 R6 のコンポーネント (Intel/AMD プロセッサー用にのみコンパイル):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿８１＿い＿１９Ｒ６。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_81_I_19R6.zip)
+-   バージョン 4D 19 R6 のコンポーネント (Intel/AMD プロセッサー用にのみコンパイル):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿８１＿い＿１９Ｒ６。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_I_19R6.zip)
 
--   バージョン 4D 19 R6 のコンポーネント (Apple Silicon プロセッサー用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿８１＿いＳ＿１９Ｒ６。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_81_IS_19R6.zip)
+-   バージョン 4D 19 R6 のコンポーネント (Apple Silicon プロセッサー用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿８１＿いＳ＿１９Ｒ６。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_IS_19R6.zip)
 
--   バージョン 4D 19 のコンポーネント (Intel/AMD プロセッサ用にのみコンパイル):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿８１＿い＿１９。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_81_I_19.zip)
+-   バージョン 4D 19 のコンポーネント (Intel/AMD プロセッサ用にのみコンパイル):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿８１＿い＿１９。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_I_19.zip)
 
--   バージョン 4D 19 のコンポーネント (Apple Silicon プロセッサー用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿８１＿いＳ＿１９。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_81_IS_19.zip)
+-   バージョン 4D 19 のコンポーネント (Apple Silicon プロセッサー用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿８１＿いＳ＿１９。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_IS_19.zip)
 
 <br>
 
 ## アーカイブ
 
--   バージョン 4D v18 のコンポーネント:[4D_Info_Report_v4_65_v18.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_65_v18.zip)
+-   バージョン 4D v18 のコンポーネント:[4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_65_v18.zip)
 
--   バージョン 4D v17 のコンポーネント (64 ビット用にのみコンパイル):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿３３＿６４ーびｔ＿ｖ１７。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_33_64-bit_v17.zip)
+-   バージョン 4D v17 のコンポーネント (64 ビット用にのみコンパイル):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿３３＿６４ーびｔ＿ｖ１７。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_33_64-bit_v17.zip)
 
--   バージョン 4D v17 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿３３＿ｖ１７。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_33_v17.zip)
+-   バージョン 4D v17 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿３３＿ｖ１７。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_33_v17.zip)
 
--   ホスト データベース (v17) といくつかのホスト共有メソッドの例 (テスト用に「コンポーネント」フォルダーにコンポーネントを追加してください:[４Ｄ＿いんふぉ＿れぽｒｔ＿ほｓｔ＿Ｔ＿ｖ８＿ｖ１７。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_Host_T_v8_v17.zip)
+-   ホスト データベース (v17) といくつかのホスト共有メソッドの例 (テスト用に「コンポーネント」フォルダーにコンポーネントを追加してください:[４Ｄ＿いんふぉ＿れぽｒｔ＿ほｓｔ＿Ｔ＿ｖ８＿ｖ１７。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_Host_T_v8_v17.zip)
 
--   バージョン 4D v16 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿９ｒＺＣ＿ｖ１６＿れｖ３。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZC_v16_rev3.zip)
+-   バージョン 4D v16 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿９ｒＺＣ＿ｖ１６＿れｖ３。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZC_v16_rev3.zip)
 
--   バージョン 4D v15 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿９ｒＺ８＿ｖ１５＿れｖ２。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
+-   バージョン 4D v15 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿９ｒＺ８＿ｖ１５＿れｖ２。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
 
--   バージョン 4D v14 のコンポーネント (64 ビット用にもコンパイルされています):[4D_Info_Report_v4_9rZ2_v14_rev1.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
+-   バージョン 4D v14 のコンポーネント (64 ビット用にもコンパイルされています):[4D_Info_Report_v4_9rZ2_v14_rev1.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
 
--   バージョン 4D v13 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿９ｒＺ２＿ｖ１３＿れｖ１。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
+-   バージョン 4D v13 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿９ｒＺ２＿ｖ１３＿れｖ１。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
 
--   バージョン 4D v12 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿９ｒＺ＿ｖ１２。じｐ](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_v4_9rZ_v12.zip)
+-   バージョン 4D v12 のコンポーネント (64 ビット用にもコンパイルされています):[４Ｄ＿いんふぉ＿れぽｒｔ＿ｖ４＿９ｒＺ＿ｖ１２。じｐ](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ_v12.zip)
 
--   ホスト データベース (v12) といくつかのホスト共有メソッドの例 (テスト用に「コンポーネント」フォルダーにコンポーネントを追加してください)[4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4eDimension/4DIR/releases/latest/download/4D_Info_Report_Host_T_v6_v12.zip)
+-   ホスト データベース (v12) といくつかのホスト共有メソッドの例 (テスト用に「コンポーネント」フォルダーにコンポーネントを追加してください)[4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_Host_T_v6_v12.zip)
