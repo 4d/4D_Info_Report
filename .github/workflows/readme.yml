@@ -1,0 +1,29 @@
+name: Translate README
+
+on: [workflow_dispatch]
+
+jobs:
+  Translations:
+    #runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+      # ISO Langusge Codes: https://cloud.google.com/translate/docs/languages  
+      - name: Adding README - French
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: fr
+      - name: Adding README - German
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: de
+      - name: Adding README - Japanese
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: ja
+      - name: Adding README - Spanish
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: es

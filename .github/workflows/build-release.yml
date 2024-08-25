@@ -1,0 +1,70 @@
+name: Build release
+
+on:
+  repository_dispatch:
+    types: [trigger-workflow]
+
+jobs:
+  Upload-release-assets:
+    permissions: write-all
+    #runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux]
+    steps:
+      - name: Copy repository in runner
+        id: checkout_repo
+        uses: actions/checkout@v4
+
+      - name: Copy package.json in runner
+        id: checkout_info_report
+        uses: actions/checkout@v4
+        with:
+          repository: 4eDimension/4D_Info_Report
+          token: ${{ secrets.TARGET_TOKEN_GITHUB }}
+          ref: main
+          path: 4D_Info_Report
+
+      - name: Get version
+        id: version
+        run: |
+          git pull origin main
+          {
+            echo 'inforeport_version<<EOF'
+            cat 4D_Info_Report/package.json | jq -r ".version"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+        shell: bash
+
+      - name: Download artifacts
+        id: upload
+        run: |
+          mkdir 4DIR
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_80_Ref_v40.pdf ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_80_Ref_v40.pdf
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_Host_T_v9_19.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_Host_T_v9_19.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_Host_T_v8_v17.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_Host_T_v8_v17.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report-20-R5.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20-R5.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report-20-LTS.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20-LTS.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_81_I_19R6.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_81_I_19R6.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_81_IS_19R6.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_81_IS_19R6.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_81_I_19.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_81_I_19.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_81_IS_19.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_81_IS_19.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_65_v18.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_65_v18.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_33_64-bit_v17.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_33_64-bit_v17.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_33_v17.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_33_v17.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_9rZC_v16_rev3.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_9rZC_v16_rev3.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_9rZ8_v15_rev2.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_9rZ8_v15_rev2.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_9rZ2_v14_rev1.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_9rZ2_v14_rev1.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_9rZ2_v13_rev1.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_9rZ2_v13_rev1.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_9rZ_v12.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_9rZ_v12.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_Host_T_v6_v12.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_Host_T_v6_v12.zip
+          cp ./4DIR/4D_Info_Report-20-R5.zip ./4DIR/4DIR.zip
+        shell: bash
+
+      - name: Upload assets
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
+          file: ./4DIR/4D*
+          tag: ${{ steps.version.outputs.inforeport_version }}
+          file_glob: true
+          overwrite: true
+          body: ""
