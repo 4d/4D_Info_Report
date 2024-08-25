@@ -52,7 +52,7 @@ Die Komponente`4D_Info_Report`bietet zahlreiche Informationen:
 >
 > -   Die Komponente befindet sich im Ordner:
 >     -   ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (auf Mac)
->     -   ~\AppData\Local\4D\Dependencies.github\4d\4D_Info_Report\ (unter Windows)
+>     -   ~\AppData\Local\4D\Dependencies\.github\4d\4D_Info_Report\ (unter Windows)
 
 **_Verfahren Nr. 2:_**
 

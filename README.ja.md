@@ -52,7 +52,7 @@
 >
 > -   コンポーネントは次のフォルダーに存在します。
 >     -   ~/ライブラリ/キャッシュ/4D/依存関係/.github/4d/4D_Info_Report/ (Mac の場合)
->     -   ~\AppData\Local\4D\Dependency.github\4d\4D_Info_Report\ (Windows の場合)
+>     -   ~\AppData\Local\4D\Dependency\.github\4d\4D_Info_Report\ (Windows の場合)
 
 **_手順 2:_**
 

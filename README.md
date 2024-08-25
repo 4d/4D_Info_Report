@@ -57,7 +57,7 @@ The component `4D_Info_Report` provides a large number of information:
 > [!NOTE]
 > * The component will be present in the folder:
 >   * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (on Mac)
->   * ~\AppData\Local\4D\Dependencies.github\4d\4D_Info_Report\ (on Windows)
+>   * ~\AppData\Local\4D\Dependencies\.github\4d\4D_Info_Report\ (on Windows)
 
 **_Procedure n°2:_**
 
