@@ -52,7 +52,7 @@ Le composant`4D_Info_Report`fournit un grand nombre d’informations :
 >
 > -   Le composant sera présent dans le dossier :
 >     -   ~/Bibliothèque/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (sur Mac)
->     -   ~\AppData\Local\4D\Dependencies\.github\4d\4D_Info_Report\ (sous Windows)
+>     -   ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (sous Windows)
 
 **_Procedure n°2:_**
 
