@@ -4,7 +4,6 @@
 ![maintenance-status](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)
 ![Maintainer](https://img.shields.io/badge/maintainer-ThomasSchlumberger-blue)
 <br>
-[![support ubuntu](https://img.shields.io/badge/ubuntu-E95420.svg?style=flat-square&logo=ubuntu&labelColor=E95420&logoColor=white)]()
 [![support mac](https://img.shields.io/badge/macOS-000000.svg?style=flat-square&logo=apple&labelColor=000000&logoColor=white)]()
 [![support windows](https://img.shields.io/badge/windows-0078D6.svg?style=flat-square&logo=MODX&logoColor=white)]()
 
