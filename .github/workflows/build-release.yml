@@ -55,7 +55,7 @@ jobs:
           curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_9rZ2_v13_rev1.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_9rZ2_v13_rev1.zip
           curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_9rZ_v12.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_9rZ_v12.zip
           curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_Host_T_v6_v12.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_Host_T_v6_v12.zip
-          cp ./4DIR/4D_Info_Report-20-R5.zip ./4DIR/4DIR.zip
+          cp ./4DIR/4D_Info_Report-20-R5.zip ./4DIR/4D_Info_Report.zip
         shell: bash
 
       - name: Upload assets
