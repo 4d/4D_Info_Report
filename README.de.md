@@ -116,13 +116,13 @@ Sie können diese Berichte analysieren:
 
 -   Komponente für Version 4D 20 (auch für Apple Silicon Prozessor kompiliert):[4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
 
--   Komponente für Version 4D 19 R6 (nur für Intel/AMD-Prozessor kompiliert):[4D_Info_Report_v4_81_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_I_19R6.zip)
+-   Komponente für Version 4D 19 R6 (nur für Intel/AMD-Prozessor kompiliert):[4D_Info_Report_v4_82_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_82_I_19R6.zip)
 
--   Komponente für Version 4D 19 R6 (auch für Apple Silicon Prozessor kompiliert):[4D_Info_Report_v4_81_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_IS_19R6.zip)
+-   Komponente für Version 4D 19 R6 (auch für Apple Silicon Prozessor kompiliert):[4D_Info_Report_v4_82_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_82_IS_19R6.zip)
 
--   Komponente für Version 4D 19 (nur für Intel/AMD-Prozessor kompiliert):[4D_Info_Report_v4_81_I_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_I_19.zip)
+-   Komponente für Version 4D 19 (nur für Intel/AMD-Prozessor kompiliert):[4D_Info_Report_v4_82_I_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_82_I_19.zip)
 
--   Komponente für Version 4D 19 (auch für Apple Silicon Prozessor kompiliert):[4D_Info_Report_v4_81_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_81_IS_19.zip)
+-   Komponente für Version 4D 19 (auch für Apple Silicon Prozessor kompiliert):[4D_Info_Report_v4_82_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_82_IS_19.zip)
 
 <br>
 
