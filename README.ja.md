@@ -1,10 +1,10 @@
 [![Version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/release_inforeport.json)](https://github.com/4d/4D_Info_Report/releases/latest/)[![4D version](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/version_4dir.json)](<>)[![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/total.svg)](https://GitHub.com/4d/4D_Info_Report/releases/latest/)![maintenance-status](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)![Maintainer](https://img.shields.io/badge/maintainer-ThomasSchlumberger-blue)<br>[![support mac](https://img.shields.io/badge/macOS-000000.svg?style=flat-square&logo=apple&labelColor=000000&logoColor=white)](<>)[![support windows](https://img.shields.io/badge/windows-0078D6.svg?style=flat-square&logo=MODX&logoColor=white)](<>)
 
-# ツール 4D_Info_Report
+# 4D_Info_Report ツール
 
 ![info_report](https://github.com/4d/4D_Info_Report/blob/main/images/4DIR.png)
 
-## READMEの翻訳
+## 各言語のREADME
 
 -   [英語](README.md)
 -   [フランス語](README.fr.md)
@@ -12,7 +12,7 @@
 -   [日本語](README.ja.md)
 -   [スペイン語](README.es.md)
 
-## このコンポーネントについて?
+## このコンポーネントについて
 
 コンポーネント`4D_Info_Report`は多数の情報を提供します。
 
