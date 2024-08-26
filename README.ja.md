@@ -28,7 +28,7 @@
 
 **_方法 1:_**
 
-> [!情報]
+> [!NOTE]
 > 4D 20 R6以降が対象です。
 
 - `/Project/Sources/`フォルダー内に`dependencies.json`ファイルを作成する
@@ -48,7 +48,7 @@
 
 - プロジェクトを再起動する
 
-> [!情報]
+> [!NOTE]
 >
 > -   コンポーネントは自動的に下記のフォルダーにダウンロードされます。
 >     -   ~/Library/Cache/4D/dependencies/.github/4d/4D_Info_Report/ (Mac)
