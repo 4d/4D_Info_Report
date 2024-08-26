@@ -56,13 +56,13 @@
 
 **_方法 2:_**
 
-フォルダーを作成する`Components`ストラクチャーまたはアプリケーションファイルの横にある (まだ存在しない場合)、アーカイブされていないコンポーネントをコピーし、4D または 4D Server を再起動します。
+プロジェクトと同階層に`Components`フォルダーを作成し，ダウンロードして展開したコンポーネントをインストールした後，4D または 4D Serverを再起動します。
 
-その後、共有メソッドを直接実行できます。`aa4D_NP_Report_Manage_Display`4Dリモートから。
+クライアントで`aa4D_NP_Report_Manage_Display`共有メソッドを実行します。
 
-コンポーネントのダイアログを使用すると、ストアド プロシージャを開始して、サーバー上で N 分ごとにレポートを作成できます。
+N分毎にサーバー上でレポートを作成するストアドプロシージャを起動するためのダイアログ画面が表示されます。
 
-この小さなコードをホスト データベースに実装することもできます。`On Server startup`メソッドを使用して、共有メソッドのいずれかを実行します (すべてのメソッドは次で始まります)`aa4D_`）：
+メソッド名に`aa4D_`接頭辞が付された共有メソッドは，下記の要領でホストプロジェクトの`On Server Startup`データベースメソッドから呼び出すことができます。
 
 <pre>
   <code class="4d">
@@ -70,7 +70,7 @@
     ARRAY TEXT($at_Components;0)
     COMPONENT LIST($at_Components)
     If(Find in array($at_Components;"4D_Info_Report@")>0)
-      // to start the stored procedure creating report every 5 minutes
+      // 5分毎にサーバー上でレポートを作成するストアドプロシージャを起動する
       $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
     End if
    </code>
@@ -78,7 +78,7 @@
 
 **_方法 3:_**
 
-`aa4D_NP_Util_CreateReport_Serv`共有メソッドを実行することにより，レポートを1個だけ作成することができます。
+`aa4D_NP_Util_CreateReport_Serv`共有メソッドを実行することにより，レポートを1回だけ作成することができます。
 
 データファイルと同階層の`Folder_reports`フォルダーに標準テキスト形式のレポートファイルが出力されます。
 
