@@ -12,28 +12,28 @@
 -   [japonais](README.ja.md)
 -   [Espagnol](README.es.md)
 
-## A propos de ce composant ?
+## À quoi sert ce composant ?
 
-Le composant`4D_Info_Report`fournit un grand nombre d’informations :
+Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 
--   sur le système d'exploitation, l'ordinateur et l'application 4D
+* sur l'environnement système, matériel, 4D
 
--   sur la base de données : description de la structure, fichier de données, taille, paramètres, etc.
+* sur la base : structure, données, triggers, index, réglages personnalisés utilisés, etc.
 
--   pendant le fonctionnement du serveur, variation de la mémoire, utilisation du cache, utilisateurs connectés, processus, etc.
+* en temps réel et en production : mémoire, cache, utilisateurs connectés, process, etc.
 
 <br>
 
 ## Comment utiliser ce composant ?
 
-**_Procedure n°1:_**
+**_Procédure n°1:_**
 
-> [!NOTE]
+> [!IMPORTANT]
 > Si vous utilisez la version 20 R6 ou supérieure
 
--   Créer un`dependencies.json`fichier dans le`/Project/Sources/`dossier
+* Créer un fichier `dependencies.json` dans le dossier `/Project/Sources/`
 
--   Copiez et collez le texte ci-dessous dans le`dependencies.json`déposer
+* Copier coller le texte ci-dessous dans le fichier `dependencies.json`
 
 ```json
 {
@@ -46,23 +46,23 @@ Le composant`4D_Info_Report`fournit un grand nombre d’informations :
 }
 ```
 
--   Le composant se chargera automatiquement après la réouverture de votre projet 4D
+* Le composant se chargera automatiquement après la réouverture du projet 4D
 
 > [!NOTE]
 >
-> -   Le composant sera présent dans le dossier :
->     -   ~/Bibliothèque/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (sur Mac)
->     -   ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (sous Windows)
+> * Le composant sera téléchargé dans le dossier :
+>   * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (sur Mac)
+>   * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (sous Windows)
 
-**_Procedure n°2:_**
+**_Procédure n°2:_**
 
-Créer un dossier`Components`à côté de la structure ou du fichier d'application (s'il n'existe pas déjà), copiez le composant non archivé, et redémarrez votre 4D ou 4D Server.
+Créer un dossier `Components` à côté de la structure ou de l'application (si ce dossier n'existe pas), copier le composant désarchivé et redémarrer 4D ou 4D Server.
 
-Ensuite, vous pouvez exécuter directement la méthode shared :`aa4D_NP_Report_Manage_Display`depuis 4D Remote.
+Vous pourrez directement exécuter la méthode partagée `aa4D_NP_Report_Manage_Display` depuis 4D Distant.
 
-Une boîte de dialogue du composant vous permettra de démarrer la procédure stockée pour créer des rapports toutes les N minutes sur le serveur.
+Un dialogue du composant vous permettra de démarrer la procédure stockée pour créer un rapport toutes les N minutes sur le Server.
 
-Vous pouvez également implémenter dans votre base de données Host, ce petit code dans votre`On Server startup`méthode pour exécuter l’une des méthodes partagées (elles commencent toutes par`aa4D_`):
+Vous pouvez aussi implémenter dans votre base hôte cet exemple de code dans la méthode base `Sur démarrage serveur` pour exécuter toute méthode partagée (leur nom commence par `aa4D_`) :
 
 <pre>
   <code class="4d">
@@ -70,17 +70,17 @@ Vous pouvez également implémenter dans votre base de données Host, ce petit c
     ARRAY TEXT($at_Components;0)
     COMPONENT LIST($at_Components)
     If(Find in array($at_Components;"4D_Info_Report@")>0)
-      // to start the stored procedure creating report every 5 minutes
+      // pour démarrer la procédure stockée créant un rapport toutes les 5 minutes
       $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
     End if
    </code>
 </pre>
 
-**_Procedure n°3:_**
+**_Procédure n°3:_**
 
-Vous pouvez simplement créer un seul rapport en utilisant la méthode partagée`aa4D_NP_Util_CreateReport_Serv`.
+Vous pouvez juste créer un rapport en exécutant la méthode partagée `aa4D_NP_Util_CreateReport_Serv`.
 
-Les rapports créés (fichiers texte) sont stockés dans un dossier créé`Folder_reports`à côté du fichier de données.
+Les rapports (fichier texte) sont créés dans un nouveau dossier `Folder_reports` à côté du fichier de données.
 
 <pre>
   <code class="4d">
@@ -88,7 +88,7 @@ Les rapports créés (fichiers texte) sont stockés dans un dossier créé`Folde
     ARRAY TEXT($at_Components;0)
     COMPONENT LIST($at_Components)
     If(Find in array($at_Components;"4D_Info_Report@")>0)
-      // to create a single report in "Folder_reports" next to the Data file
+      // pour créer un simple rapport dans le dossier `Folder_reports` à côté du fichier de données
       $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
     End if
     </code>
@@ -98,52 +98,57 @@ Les rapports créés (fichiers texte) sont stockés dans un dossier créé`Folde
 
 ## Comment analyser les rapports ?
 
-Vous pouvez analyser ces rapports :
+Vous pouvez analyser ces rapports :
 
--   depuis un 4D distant en exécutant la commande`aa4D_NP_Report_Export_Display`méthode
+* à partir d'un 4D distant en exécutant la méthode `aa4D_NP_Report_Export_Display`,
 
--   depuis un 4D mono-utilisateur en ouvrant le composant et en cliquant sur l'icône`File / Local reports compare`menu
+* à partir d'un 4D monoposte en ouvrant le composant et en cliquant sur le menu `Fichier` puis sur `Local reports compare`.
+
+> [!TIP]
+> Démonstration vidéo sur l'utilisation du composant en français :
+> 
+> * [en Haute Définition sur le site de Vimeo](https://vimeo.com/32785939)
 
 <br>
 
-## Télécharger
+## Téléchargement
 
--   référence du composant :[ChD_Info_Report_vch_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_80_Ref_v40.pdf)
+* documentation (en anglais) : [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_80_Ref_v40.pdf)
 
--   base de données hôte (19) avec quelques exemples de méthodes partagées par l'hôte (veuillez ajouter le composant dans le dossier "Components" pour votre test :[4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_Host_T_v9_19.zip)
+* base hôte 19 utilisant des méthodes hôtes à inclure dans votre base (merci d'ajouter le composant dans le dossier "Components" pour tester) : [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_Host_T_v9_19.zip)
 
--   composant pour la version 4D 20 R5 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report-20-R5.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-R5.zip)
+* composant en version 4D 20 R5 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report-20-R5.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-R5.zip)
 
--   composant pour la version 4D 20 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
+* composant en version 4D 20 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
 
--   composant pour la version 4D 19 R6 (compilé uniquement pour processeur Intel/AMD) :[4D_Info_Report_v4_82_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_82_I_19R6.zip)
+* composant en version 4D 19 R6 (compilé seulement pour processeur Intel/AMD) : [4D_Info_Report_v4_82_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_82_I_19R6.zip)
 
--   composant pour la version 4D 19 R6 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report_v4_82_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_82_IS_19R6.zip)
+* composant en version 4D 19 R6 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_82_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_82_IS_19R6.zip)
 
--   composant pour la version 4D 19 (compilé uniquement pour processeur Intel/AMD) :[4D_Info_Report_v4_82_I_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_82_I_19.zip)
+* composant en version 4D 19 (compilé seulement pour processeur Intel/AMD) : [4D_Info_Report_v4_82_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_82_I_19.zip)
 
--   composant pour la version 4D 19 (également compilé pour le processeur Apple Silicon) :[4D_Info_Report_v4_82_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_82_IS_19.zip)
+* composant en version 4D 19 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_82_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_82_IS_19.zip)
 
 <br>
 
 ## Archives
 
--   composant pour la version 4D v18 :[4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_65_v18.zip)
+* composant pour la version 4D 18 : [4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_65_v18.zip)
 
--   composant pour la version 4D v17 (compilé uniquement pour le 64 bits) :[4D_Info_Report_v4_33_64-bit_v17.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_33_64-bit_v17.zip)
+* composant en version 4D 17 (compilé uniquement en 64 bits) : [4D_Info_Report_v4_33_64-bit_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_33_64-bit_v17.zip)
 
--   composant pour la version 4D v17 (également compilé pour le 64 bits) :[4D_Info_Report_v4_33_v17.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_33_v17.zip)
+* composant en version 4D 17 (compilé aussi en 64 bits) : [4D_Info_Report_v4_33_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_33_v17.zip)
 
--   base de données hôte (v17) avec quelques exemples de méthodes partagées par l'hôte (veuillez ajouter le composant dans le dossier "Components" pour votre test :[4D_Info_Report_Host_T_v8_v17.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_Host_T_v8_v17.zip)
+* base hôte v17 utilisant des méthodes hôtes à inclure dans votre base (merci d'ajouter le composant dans le dossier "Components" pour tester) : [4D_Info_Report_Host_T_v8_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_Host_T_v8_v17.zip)
 
--   composant pour la version 4D v16 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZC_v16_rev3.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZC_v16_rev3.zip)
+* composant en version 4D 16 (compilé aussi en 64 bits) : [4D_Info_Report_v4_9rZC_v16_rev3.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_9rZC_v16_rev3.zip)
 
--   composant pour la version 4D v15 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ8_v15_rev2.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
+* composant en version 4D 15 (compilé aussi en 64 bits) : [4D_Info_Report_v4_9rZ8_v15_rev2.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
 
--   composant pour la version 4D v14 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ2_v14_rev1.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
+* composant en version 4D 14 (compilé aussi en 64 bits) : [4D_Info_Report_v4_9rZ2_v14_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
 
--   composant pour la version 4D v13 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ2_v13_rev1.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
+* composant en version 4D 13 (compilé aussi en 64 bits) : [4D_Info_Report_v4_9rZ2_v13_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
 
--   composant pour la version 4D v12 (également compilé pour le 64 bits) :[4D_Info_Report_v4_9rZ_v12.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_v4_9rZ_v12.zip)
+* composant en version 4D 12 (compilé aussi en 64 bits) : [4D_Info_Report_v4_9rZ_v12.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_v4_9rZ_v12.zip)
 
--   base de données hôte (v12) avec quelques exemples de méthodes partagées par l'hôte (veuillez ajouter le composant dans le dossier "Components" pour votre test :[4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report_Host_T_v6_v12.zip)
+* base hôte v12 utilisant des méthodes hôtes à inclure dans votre base (merci d'ajouter le composant dans le dossier "Components" pour tester) : [4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4d/4D_Info_Report/releases/download/4.85.1/4D_Info_Report_Host_T_v6_v12.zip)
