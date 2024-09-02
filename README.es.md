@@ -4,7 +4,7 @@
 
 ![info_report](https://raw.githubusercontent.com/4d/4D_Info_Report/main/images/4DIR.png)
 
-## Traducción LÉAME
+# Traducción LÉAME
 
 * [Inglés](README.md)
 * [Francés](README.fr.md)
@@ -12,7 +12,7 @@
 * [japonés](README.ja.md)
 * [Español](README.es.md)
 
-## ¿Sobre este componente?
+# ¿Sobre este componente?
 
 el componente`4D_Info_Report`proporciona una gran cantidad de información:
 
@@ -24,7 +24,7 @@ el componente`4D_Info_Report`proporciona una gran cantidad de información:
 
 <br>
 
-## ¿Cómo utilizar este componente?
+# ¿Cómo utilizar este componente?
 
 **_Procedimiento n°1:_**
 
@@ -93,7 +93,7 @@ End if
 
 <br>
 
-## ¿Cómo analizar informes?
+# ¿Cómo analizar informes?
 
 Puedes analizar estos informes:
 
@@ -103,7 +103,7 @@ Puedes analizar estos informes:
 
 <br>
 
-## Descargar
+# Descargar
 
 * referencia del componente: [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
 
@@ -123,7 +123,7 @@ Puedes analizar estos informes:
 
 <br>
 
-## Archivo
+# Archivo
 
 * componente para la versión 4D 18: [4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_65_v18.zip)
 

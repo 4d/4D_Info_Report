@@ -4,7 +4,7 @@
 
 ![info_report](https://raw.githubusercontent.com/4d/4D_Info_Report/main/images/4DIR.png)
 
-## README-Übersetzung
+# README-Übersetzung
 
 * [Englisch](README.md)
 * [Französisch](README.fr.md)
@@ -12,7 +12,7 @@
 * [japanisch](README.ja.md)
 * [Spanisch](README.es.md)
 
-## Über diese Komponente?
+# Über diese Komponente?
 
 Die Komponente`4D_Info_Report`bietet zahlreiche Informationen:
 
@@ -24,7 +24,7 @@ Die Komponente`4D_Info_Report`bietet zahlreiche Informationen:
 
 <br>
 
-## Wie verwende ich diese Komponente?
+# Wie verwende ich diese Komponente?
 
 **_Verfahren Nr. 1:_**
 
@@ -93,7 +93,7 @@ End if
 
 <br>
 
-## Wie analysiert man Berichte?
+# Wie analysiert man Berichte?
 
 Sie können diese Berichte analysieren:
 
@@ -103,7 +103,7 @@ Sie können diese Berichte analysieren:
 
 <br>
 
-## Herunterladen
+# Herunterladen
 
 * Referenz der Komponente: [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
 
@@ -123,7 +123,7 @@ Sie können diese Berichte analysieren:
 
 <br>
 
-## Archiv
+# Archiv
 
 * Komponente für Version 4D 18: [4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_65_v18.zip)
 

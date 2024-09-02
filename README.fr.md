@@ -4,7 +4,7 @@
 
 ![info_report](https://raw.githubusercontent.com/4d/4D_Info_Report/main/images/4DIR.png)
 
-## Traduction du fichier README
+# Traduction du fichier README
 
 -   [Anglais](README.md)
 -   [Français](README.fr.md)
@@ -12,7 +12,7 @@
 -   [japonais](README.ja.md)
 -   [Espagnol](README.es.md)
 
-## À quoi sert ce composant ?
+# À quoi sert ce composant ?
 
 Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 
@@ -24,7 +24,7 @@ Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 
 <br>
 
-## Comment utiliser ce composant ?
+# Comment utiliser ce composant ?
 
 **_Procédure n°1:_**
 
@@ -93,7 +93,7 @@ End if
 
 <br>
 
-## Comment analyser les rapports ?
+# Comment analyser les rapports ?
 
 Vous pouvez analyser ces rapports :
 
@@ -108,7 +108,7 @@ Vous pouvez analyser ces rapports :
 
 <br>
 
-## Téléchargement
+# Téléchargement
 
 * documentation (en anglais) : [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
 
@@ -128,7 +128,7 @@ Vous pouvez analyser ces rapports :
 
 <br>
 
-## Archives
+# Archives
 
 * composant pour la version 4D 18 : [4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_65_v18.zip)
 

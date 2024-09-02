@@ -4,7 +4,7 @@
 
 ![info_report](https://raw.githubusercontent.com/4d/4D_Info_Report/main/images/4DIR.png)
 
-## 各言語のREADME
+# 各言語のREADME
 
 -   [英語](README.md)
 -   [フランス語](README.fr.md)
@@ -12,7 +12,7 @@
 -   [日本語](README.ja.md)
 -   [スペイン語](README.es.md)
 
-## コンポーネントの用途
+# コンポーネントの用途
 
 コンポーネント`4D_Info_Report`はアプリケーションの検査と診断に役立つ情報を収集するためのツールです。
 
@@ -24,7 +24,7 @@
 
 <br>
 
-## コンポーネントを使用する
+# コンポーネントを使用する
 
 **_方法 1:_**
 
@@ -93,7 +93,7 @@ End if
 
 <br>
 
-## レポートを解析する
+# レポートを解析する
 
 下記いずれかのレポートを解析することができます。
 
@@ -103,7 +103,7 @@ End if
 
 <br>
 
-## ダウンロード
+# ダウンロード
 
 - リファレンス : [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
 
@@ -123,7 +123,7 @@ End if
 
 <br>
 
-## 過去バージョン
+# 過去バージョン
 
 - 4D 18コンポーネント : [4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_65_v18.zip)
 
