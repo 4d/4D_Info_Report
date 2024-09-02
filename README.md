@@ -72,13 +72,13 @@ A dialog from the component will let you start the Stored procedure to create re
 You can also implement in your Host database, this small code in your `On Server startup` method to execute any of the shared methods (they all begins with `aa4D_`):
 
 ```4d
-  var $NP : Integer
-  ARRAY TEXT($at_Components;0)
-  COMPONENT LIST($at_Components)
-  If(Find in array($at_Components;"4D_Info_Report@")>0)
-    // to start the stored procedure creating report every 5 minutes
-    $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
-  End if
+var $NP : Integer
+ARRAY TEXT($at_Components;0)
+COMPONENT LIST($at_Components)
+If(Find in array($at_Components;"4D_Info_Report@")>0)
+  // to start the stored procedure creating report every 5 minutes
+  $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
+End if
 ```
 
 **_Procedure n°3:_**
@@ -88,13 +88,13 @@ You can just create one report using the shared method `aa4D_NP_Util_CreateRepor
 The created reports (text files) are stored in a created folder `Folder_reports` next to the data file.
 
 ```4d
-  var $NP : Integer
-  ARRAY TEXT($at_Components;0)
-  COMPONENT LIST($at_Components)
-  If(Find in array($at_Components;"4D_Info_Report@")>0)
-    // to create a single report in "Folder_reports" next to the Data file
-    $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
-  End if
+var $NP : Integer
+ARRAY TEXT($at_Components;0)
+COMPONENT LIST($at_Components)
+If(Find in array($at_Components;"4D_Info_Report@")>0)
+  // to create a single report in "Folder_reports" next to the Data file
+  $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
+End if
 ```
 
 <br>

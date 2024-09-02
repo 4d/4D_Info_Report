@@ -66,13 +66,13 @@ Un cuadro de diálogo del componente le permitirá iniciar el procedimiento alma
 También puedes implementar en tu base de datos Host, este pequeño código en tu`On Server startup`método para ejecutar cualquiera de los métodos compartidos (todos comienzan con`aa4D_`):
 
 ```4d
-  var $NP : Integer
-  ARRAY TEXT($at_Components;0)
-  COMPONENT LIST($at_Components)
-  If(Find in array($at_Components;"4D_Info_Report@")>0)
-    // to start the stored procedure creating report every 5 minutes
-    $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
-  End if
+var $NP : Integer
+ARRAY TEXT($at_Components;0)
+COMPONENT LIST($at_Components)
+If(Find in array($at_Components;"4D_Info_Report@")>0)
+  // to start the stored procedure creating report every 5 minutes
+  $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
+End if
 ```
 
 **_Procedimiento n°3:_**
@@ -82,13 +82,13 @@ Puede crear un solo informe utilizando el método compartido`aa4D_NP_Util_Create
 Los informes creados (archivos de texto) se almacenan en una carpeta creada.`Folder_reports`al lado del archivo de datos.
 
 ```4d
-  var $NP : Integer
-  ARRAY TEXT($at_Components;0)
-  COMPONENT LIST($at_Components)
-  If(Find in array($at_Components;"4D_Info_Report@")>0)
-    // to create a single report in "Folder_reports" next to the Data file
-    $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
-  End if
+var $NP : Integer
+ARRAY TEXT($at_Components;0)
+COMPONENT LIST($at_Components)
+If(Find in array($at_Components;"4D_Info_Report@")>0)
+  // to create a single report in "Folder_reports" next to the Data file
+  $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
+End if
 ```
 
 <br>

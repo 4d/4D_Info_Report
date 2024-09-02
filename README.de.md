@@ -66,13 +66,13 @@ Dann können Sie die gemeinsam genutzte Methode direkt ausführen:`aa4D_NP_Repor
 Sie können diesen kleinen Code auch in Ihrer Host-Datenbank implementieren`On Server startup`Methode, um eine der gemeinsam genutzten Methoden auszuführen (sie beginnen alle mit`aa4D_`):
 
 ```4d
-  var $NP : Integer
-  ARRAY TEXT($at_Components;0)
-  COMPONENT LIST($at_Components)
-  If(Find in array($at_Components;"4D_Info_Report@")>0)
-    // to start the stored procedure creating report every 5 minutes
-    $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
-  End if
+var $NP : Integer
+ARRAY TEXT($at_Components;0)
+COMPONENT LIST($at_Components)
+If(Find in array($at_Components;"4D_Info_Report@")>0)
+  // to start the stored procedure creating report every 5 minutes
+  $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
+End if
 ```
 
 **_Verfahren Nr. 3:_**
@@ -82,13 +82,13 @@ Sie können mit der gemeinsamen Methode nur einen Bericht erstellen`aa4D_NP_Util
 Die erstellten Berichte (Textdateien) werden in einem erstellten Ordner gespeichert`Folder_reports`neben der Datendatei.
 
 ```4d
-  var $NP : Integer
-  ARRAY TEXT($at_Components;0)
-  COMPONENT LIST($at_Components)
-  If(Find in array($at_Components;"4D_Info_Report@")>0)
-    // to create a single report in "Folder_reports" next to the Data file
-    $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
-  End if
+var $NP : Integer
+ARRAY TEXT($at_Components;0)
+COMPONENT LIST($at_Components)
+If(Find in array($at_Components;"4D_Info_Report@")>0)
+  // to create a single report in "Folder_reports" next to the Data file
+  $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
+End if
 ```
 
 <br>
