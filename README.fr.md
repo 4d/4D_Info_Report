@@ -30,7 +30,7 @@ Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 
 > **Important**
 >
-> Si vous utilisez la version 20 R6 ou supérieure
+> Nécessite une version 20 R6 ou supérieure
 
 * Créer un fichier `dependencies.json` dans le dossier `/Project/Sources/`
 
@@ -118,13 +118,13 @@ Vous pouvez analyser ces rapports :
 
 * composant en version 4D 20 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
 
-* composant en version 4D 19 R6 (compilé seulement pour processeur Intel/AMD) : [4D_Info_Report_v4_83_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_I_19R6.zip)
+* composant en version 4D 19 R6 (compilé seulement pour processeur Intel/AMD) : [4D_Info_Report_v4_83_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19R6.zip)
 
-* composant en version 4D 19 R6 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_83_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_IS_19R6.zip)
+* composant en version 4D 19 R6 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_83_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_IS_19R6.zip)
 
-* composant en version 4D 19 (compilé seulement pour processeur Intel/AMD) : [4D_Info_Report_v4_83_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_I_19.zip)
+* composant en version 4D 19 (compilé seulement pour processeur Intel/AMD) : [4D_Info_Report_v4_83_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19.zip)
 
-* composant en version 4D 19 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_83_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_IS_19.zip)
+* composant en version 4D 19 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_83_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_IS_19.zip)
 
 <br>
 

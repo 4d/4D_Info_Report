@@ -113,13 +113,13 @@ End if
 
 - 4D 20コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
 
-- 4D 19 R6コンポーネント（Intel/AMD）: [4D_Info_Report_v4_83_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_I_19R6.zip)
+- 4D 19 R6コンポーネント（Intel/AMD）: [4D_Info_Report_v4_83_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19R6.zip)
 
-- 4D 19 R6コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_v4_83_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_IS_19R6.zip)
+- 4D 19 R6コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_v4_83_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_IS_19R6.zip)
 
-- 4D 19コンポーネント（Intel/AMD）: [4D_Info_Report_v4_83_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_I_19.zip)
+- 4D 19コンポーネント（Intel/AMD）: [4D_Info_Report_v4_83_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19.zip)
 
-- 4D 19コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_v4_83_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_IS_19.zip)
+- 4D 19コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_v4_83_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_IS_19.zip)
 
 <br>
 

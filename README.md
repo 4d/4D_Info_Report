@@ -36,7 +36,7 @@ The component `4D_Info_Report` provides a large number of information:
 
 > **Important**
 >
-> If you are using version 20 R6 or higher
+> Requires version 20 R6 or higher
 
 * Create a `dependencies.json` file in the `/Project/Sources/` folder
 
@@ -119,13 +119,13 @@ You can analyze these reports:
 
 * component for version 4D 20 (also compiled for Apple Silicon processor): [4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
 
-* component for version 4D 19 R6 (only compiled for Intel/AMD processor): [4D_Info_Report_v4_83_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_I_19R6.zip)
+* component for version 4D 19 R6 (only compiled for Intel/AMD processor): [4D_Info_Report_v4_83_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19R6.zip)
 
-* component for version 4D 19 R6 (also compiled for Apple Silicon processor): [4D_Info_Report_v4_83_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_IS_19R6.zip)
+* component for version 4D 19 R6 (also compiled for Apple Silicon processor): [4D_Info_Report_v4_83_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_IS_19R6.zip)
 
-* component for version 4D 19 (only compiled for Intel/AMD processor): [4D_Info_Report_v4_83_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_I_19.zip)
+* component for version 4D 19 (only compiled for Intel/AMD processor): [4D_Info_Report_v4_83_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19.zip)
 
-* component for version 4D 19 (also compiled for Apple Silicon processor): [4D_Info_Report_v4_83_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/4.86.0/4D_Info_Report_v4_83_IS_19.zip)
+* component for version 4D 19 (also compiled for Apple Silicon processor): [4D_Info_Report_v4_83_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_IS_19.zip)
 
 <br>
 

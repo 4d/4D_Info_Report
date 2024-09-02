@@ -56,10 +56,6 @@ jobs:
           rm 4DIR/4D_Info_Report.zip
           curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report-20-R6.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20-R6.zip
           curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report-20-LTS.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20-LTS.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_83_I_19R6.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_83_I_19R6.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_83_IS_19R6.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_83_IS_19R6.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_83_I_19.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_83_I_19.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v4_83_IS_19.zip ${{ secrets.FTP_PRIVATE_PATH }}4DIR/4D_Info_Report_v4_83_IS_19.zip
         shell: bash
 
       - name: Upload others assets
@@ -68,6 +64,6 @@ jobs:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D*
           tag: ${{ steps.version.outputs.inforeport_version }}
-          body: 4D_Info_Report v${{ steps.version.outputs.inforeport_version }} for 4D 4D 20 R6 & 20 LTS / 4D_Info_Report v4.83 for 4D 19 & 19 R6
+          body: 4D_Info_Report v${{ steps.version.outputs.inforeport_version }} for 4D 20 R6 & 20 LTS (compiled for Intel and Silicon)
           file_glob: true
           overwrite: true
