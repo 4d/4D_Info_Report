@@ -2,7 +2,7 @@
 
 # Outil 4D_Info_Report
 
-![info_report](https://github.com/4d/4D_Info_Report/blob/main/images/4DIR.png)
+![info_report](https://raw.githubusercontent.com/4d/4D_Info_Report/main/images/4DIR.png)
 
 ## Traduction du fichier README
 
@@ -28,7 +28,8 @@ Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 
 **_Procédure n°1:_**
 
-> [!IMPORTANT]
+> **Important**
+>
 > Si vous utilisez la version 20 R6 ou supérieure
 
 * Créer un fichier `dependencies.json` dans le dossier `/Project/Sources/`
@@ -48,7 +49,7 @@ Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 
 * Le composant se chargera automatiquement après la réouverture du projet 4D
 
-> [!NOTE]
+> **Note**
 >
 > * Le composant sera téléchargé dans le dossier :
 >   * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (sur Mac)
@@ -64,17 +65,15 @@ Un dialogue du composant vous permettra de démarrer la procédure stockée pour
 
 Vous pouvez aussi implémenter dans votre base hôte cet exemple de code dans la méthode base `Sur démarrage serveur` pour exécuter toute méthode partagée (leur nom commence par `aa4D_`) :
 
-<pre>
-  <code class="4d">
-    var $NP : Integer
-    ARRAY TEXT($at_Components;0)
-    COMPONENT LIST($at_Components)
-    If(Find in array($at_Components;"4D_Info_Report@")>0)
-      // pour démarrer la procédure stockée créant un rapport toutes les 5 minutes
-      $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
-    End if
-   </code>
-</pre>
+```4d
+  var $NP : Integer
+  ARRAY TEXT($at_Components;0)
+  COMPONENT LIST($at_Components)
+  If(Find in array($at_Components;"4D_Info_Report@")>0)
+    // pour démarrer la procédure stockée créant un rapport toutes les 5 minutes
+    $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
+  End if
+```
 
 **_Procédure n°3:_**
 
@@ -82,17 +81,15 @@ Vous pouvez juste créer un rapport en exécutant la méthode partagée `aa4D_NP
 
 Les rapports (fichier texte) sont créés dans un nouveau dossier `Folder_reports` à côté du fichier de données.
 
-<pre>
-  <code class="4d">
-    var $NP : Integer
-    ARRAY TEXT($at_Components;0)
-    COMPONENT LIST($at_Components)
-    If(Find in array($at_Components;"4D_Info_Report@")>0)
-      // pour créer un simple rapport dans le dossier `Folder_reports` à côté du fichier de données
-      $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
-    End if
-    </code>
-</pre>
+```4d
+  var $NP : Integer
+  ARRAY TEXT($at_Components;0)
+  COMPONENT LIST($at_Components)
+  If(Find in array($at_Components;"4D_Info_Report@")>0)
+    // pour créer un simple rapport dans le dossier `Folder_reports` à côté du fichier de données
+    $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
+  End if
+```
 
 <br>
 

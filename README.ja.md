@@ -2,7 +2,7 @@
 
 # 4D_Info_Report ツール
 
-![info_report](https://github.com/4d/4D_Info_Report/blob/main/images/4DIR.png)
+![info_report](https://raw.githubusercontent.com/4d/4D_Info_Report/main/images/4DIR.png)
 
 ## 各言語のREADME
 
@@ -28,7 +28,8 @@
 
 **_方法 1:_**
 
-> [!IMPORTANT]
+> **Important**
+>
 > 4D 20 R6以降が対象です。
 
 - `/Project/Sources/`フォルダー内に`dependencies.json`ファイルを作成する
@@ -48,7 +49,7 @@
 
 - プロジェクトを再起動する
 
-> [!NOTE]
+> **Note**
 >
 > -   コンポーネントは自動的に下記のフォルダーにダウンロードされます。
 >     -   ~/Library/Cache/4D/dependencies/.github/4d/4D_Info_Report/ (Mac)
@@ -64,17 +65,15 @@ N分毎にサーバー上でレポートを作成するストアドプロシー�
 
 メソッド名に`aa4D_`接頭辞が付された共有メソッドは，下記の要領でホストプロジェクトの`On Server Startup`データベースメソッドから呼び出すことができます。
 
-<pre>
-  <code class="4d">
-    var $NP : Integer
-    ARRAY TEXT($at_Components;0)
-    COMPONENT LIST($at_Components)
-    If(Find in array($at_Components;"4D_Info_Report@")>0)
-      // 5分毎にサーバー上でレポートを作成するストアドプロシージャを起動する
-      $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
-    End if
-   </code>
-</pre>
+```4d
+  var $NP : Integer
+  ARRAY TEXT($at_Components;0)
+  COMPONENT LIST($at_Components)
+  If(Find in array($at_Components;"4D_Info_Report@")>0)
+    // 5分毎にサーバー上でレポートを作成するストアドプロシージャを起動する
+    $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
+  End if
+```
 
 **_方法 3:_**
 
@@ -82,17 +81,15 @@ N分毎にサーバー上でレポートを作成するストアドプロシー�
 
 データファイルと同階層の`Folder_reports`フォルダーに標準テキスト形式のレポートファイルが出力されます。
 
-<pre>
-  <code class="4d">
-    var $NP : Integer
-    ARRAY TEXT($at_Components;0)
-    COMPONENT LIST($at_Components)
-    If(Find in array($at_Components;"4D_Info_Report@")>0)
-      // データファイルと同階層の"Folder_reports"に1回だけレポートを作成する
-      $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
-    End if
-    </code>
-</pre>
+```4d
+  var $NP : Integer
+  ARRAY TEXT($at_Components;0)
+  COMPONENT LIST($at_Components)
+  If(Find in array($at_Components;"4D_Info_Report@")>0)
+    // データファイルと同階層の"Folder_reports"に1回だけレポートを作成する
+    $NP:=New process("aa4D_NP_Util_CreateReport_Serv";0;"$4DIR_NP")
+  End if
+```
 
 <br>
 
