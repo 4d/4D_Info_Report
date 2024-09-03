@@ -7,11 +7,8 @@
 [![support mac](https://img.shields.io/badge/macOS-000000.svg?style=flat-square&logo=apple&labelColor=000000&logoColor=white)]()
 [![support windows](https://img.shields.io/badge/windows-0078D6.svg?style=flat-square&logo=MODX&logoColor=white)]()
 
-# Tool 4D_Info_Report
-
 ![info_report](https://raw.githubusercontent.com/4d/4D_Info_Report/main/images/4DIR.png)
 
-# README Translation
 * [English](README.md)
 * [French](README.fr.md)
 * [German](README.de.md)
@@ -113,11 +110,11 @@ You can analyze these reports:
 
 * reference of the component: [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
 
-* host database (19) with some host shared methods example (please add the component in the "Components" folder for your test: [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
+* host database (4D 19) with some host shared methods example (please add the component in the "Components" folder for your test: [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
 * component for version 4D 20 R6 (also compiled for Apple Silicon processor): [4D_Info_Report-20-R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-R6.zip)
 
-* component for version 4D 20 (also compiled for Apple Silicon processor): [4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
+* component for version 4D 20 LTS (also compiled for Apple Silicon processor): [4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
 
 * component for version 4D 19 R6 (only compiled for Intel/AMD processor): [4D_Info_Report_v4_83_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19R6.zip)
 
