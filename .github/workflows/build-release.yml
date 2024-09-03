@@ -33,20 +33,34 @@ jobs:
           } >> "$GITHUB_OUTPUT"
         shell: bash
 
-      - name: Download artifact 20 R
-        id: download-20-R
+      - name: Get major version
+        id: major_version
         run: |
-          mkdir 4DIR
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20-R6.zip
+          TAG=${{ steps.version.outputs.inforeport_version }}
+          echo "major_version=${TAG:0:1}" >> $GITHUB_OUTPUT
         shell: bash
 
-      - name: Upload asset 20 R
+      - name: Get minor version
+        id: minor_version
+        run: |
+          TAG=${{ steps.version.outputs.inforeport_version }}
+          echo "minor_version=${TAG:2:2}" >> $GITHUB_OUTPUT
+        shell: bash
+
+      - name: Download artifact 4D R
+        id: download-4D-R
+        run: |
+          mkdir 4DIR
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R.zip
+        shell: bash
+
+      - name: Upload asset 4D R
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D_Info_Report.zip
           tag: "20.6.0"
-          body: 4D_Info_Report v${{ steps.version.outputs.inforeport_version }} for 4D 20 R6 (compiled for Intel and Silicon)
+          body: 4D_Info_Report v${{ steps.version.outputs.inforeport_version }} for 4D R (compiled for Intel and Silicon)
           file_glob: true
           overwrite: true
 
@@ -54,8 +68,8 @@ jobs:
         id: download
         run: |
           rm 4DIR/4D_Info_Report.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report-20-R6.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20-R6.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report-20-LTS.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20-LTS.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_20R6.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_20.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-LTS.zip
         shell: bash
 
       - name: Upload others assets
@@ -64,6 +78,6 @@ jobs:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D*
           tag: ${{ steps.version.outputs.inforeport_version }}
-          body: 4D_Info_Report v${{ steps.version.outputs.inforeport_version }} for 4D 20 R6 & 20 LTS (compiled for Intel and Silicon)
+          body: 4D_Info_Report v${{ steps.version.outputs.inforeport_version }} for 4D R & LTS (compiled for Intel and Silicon)
           file_glob: true
           overwrite: true

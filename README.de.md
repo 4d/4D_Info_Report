@@ -105,9 +105,9 @@ Sie können diese Berichte analysieren:
 
 * Host-Datenbank (4D 19) mit einigen Beispielen für gemeinsam genutzte Host-Methoden (bitte fügen Sie die Komponente für Ihren Test im Ordner „Components“ hinzu: [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-* Komponente für Version 4D 20 R6 (auch für Apple Silicon Prozessor kompiliert): [4D_Info_Report-20-R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-R6.zip)
+* Komponente für Version 4D 20 R6 (auch für Apple Silicon Prozessor kompiliert): [4D_Info_Report_20R6.zip](https://github.com/4d/4D_Info_Report/releases/latest/)
 
-* Komponente für Version 4D 20 LTS (auch für Apple Silicon Prozessor kompiliert): [4D_Info_Report-20-LTS.zip](https://github.com/4d/4D_Info_Report/releases/latest/download/4D_Info_Report-20-LTS.zip)
+* Komponente für Version 4D 20 LTS (auch für Apple Silicon Prozessor kompiliert): [4D_Info_Report_20.zip](https://github.com/4d/4D_Info_Report/releases/latest/)
 
 * Komponente für Version 4D 19 R6 (nur für Intel/AMD-Prozessor kompiliert): [4D_Info_Report_v4_83_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19R6.zip)
 
