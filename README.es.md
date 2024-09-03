@@ -5,7 +5,7 @@
 * [Inglés](README.md)
 * [Francés](README.fr.md)
 * [Alemán](README.de.md)
-* [japonés](README.ja.md)
+* [Japonés](README.ja.md)
 * [Español](README.es.md)
 
 # ¿Sobre este componente?

@@ -5,7 +5,7 @@
 -   [Anglais](README.md)
 -   [Français](README.fr.md)
 -   [Allemand](README.de.md)
--   [japonais](README.ja.md)
+-   [Japonais](README.ja.md)
 -   [Espagnol](README.es.md)
 
 # À quoi sert ce composant ?
