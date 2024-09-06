@@ -134,7 +134,7 @@ You can analyze these reports:
 
 * component for version 4D 17 (also compiled for 64-bit): [4D_Info_Report_v4_33_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_v17.zip)
 
-* host database (v17) with some host shared methods example (please add the component in the "Components" folder for your test: [4D_Info_Report_Host_T_v8_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v8_v17.zip)
+* host database (4D 17) with some host shared methods example (please add the component in the "Components" folder for your test: [4D_Info_Report_Host_T_v8_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v8_v17.zip)
 
 * component for version 4D 16 (also compiled for 64-bit): [4D_Info_Report_v4_9rZC_v16_rev3.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZC_v16_rev3.zip)
 
@@ -146,4 +146,4 @@ You can analyze these reports:
 
 * component for version 4D 12 (also compiled for 64-bit): [4D_Info_Report_v4_9rZ_v12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ_v12.zip)
 
-* host database (v12) with some host shared methods example (please add the component in the "Components" folder for your test: [4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v6_v12.zip)
+* host database (4D 12) with some host shared methods example (please add the component in the "Components" folder for your test: [4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v6_v12.zip)

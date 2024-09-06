@@ -61,7 +61,7 @@ jobs:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D_Info_Report.zip
           tag: "20.6.0"
-          body: 4D_Info_Report v${{ steps.version.outputs.inforeport_version }} for 4D R (compiled for Intel and Silicon)
+          body: for automatic download via dependencies manager (see procedure n°1)
           file_glob: true
           overwrite: true
 
@@ -79,6 +79,6 @@ jobs:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D*
           tag: ${{ steps.version.outputs.inforeport_version }}
-          body: 4D_Info_Report v${{ steps.version.outputs.inforeport_version }} for 4D R & LTS (compiled for Intel and Silicon)
+          body: 4D_Info_Report v${{ steps.version.outputs.inforeport_version }} for the latest 4D Rx & LTS versions (compiled for Intel and Silicon)
           file_glob: true
           overwrite: true
