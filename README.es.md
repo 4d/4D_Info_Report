@@ -31,8 +31,6 @@ el componente`4D_Info_Report`proporciona una gran cantidad de información:
 
 **_Procedimiento n°1:_**
 
-> **Important**
->
 > Requiere la versión 20 R6 o superior
 
 * Crear un`dependencies.json`archivo en el`/Project/Sources/`carpeta
@@ -52,8 +50,6 @@ el componente`4D_Info_Report`proporciona una gran cantidad de información:
 
 * El componente se cargará automáticamente después de volver a abrir su proyecto 4D.
 
-> **Note**
->
 > * El componente estará presente en la carpeta:
 >   * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (en Mac)
 >   * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (en Windows)
@@ -128,22 +124,22 @@ Puedes analizar estos informes:
 
 # Archivo
 
-* componente para la versión 4D 18: [4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_65_v18.zip)
+* componente para la versión 4D 18: [4D_Info_Report_v4_65_18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_65_v18.zip)
 
-* componente para la versión 4D 17 (sólo compilado para 64 bits): [4D_Info_Report_v4_33_64-bit_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_64-bit_v17.zip)
+* componente para la versión 4D 17 (sólo compilado para 64 bits): [4D_Info_Report_v4_33_64-bit_17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_64-bit_v17.zip)
 
-* componente para la versión 4D 17 (también compilado para 64 bits): [4D_Info_Report_v4_33_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_v17.zip)
+* componente para la versión 4D 17 (también compilado para 64 bits): [4D_Info_Report_v4_33_17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_v17.zip)
 
-* base de datos de host (4D 17) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba: [4D_Info_Report_Host_T_v8_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v8_v17.zip)
+* base de datos de host (4D 17) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba: [4D_Info_Report_Host_T_v8_17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v8_v17.zip)
 
-* componente para la versión 4D 16 (también compilado para 64 bits): [4D_Info_Report_v4_9rZC_v16_rev3.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZC_v16_rev3.zip)
+* componente para la versión 4D 16 (también compilado para 64 bits): [4D_Info_Report_v4_9rZC_16_rev3.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZC_v16_rev3.zip)
 
-* componente para la versión 4D 15 (también compilado para 64 bits): [4D_Info_Report_v4_9rZ8_v15_rev2.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
+* componente para la versión 4D 15 (también compilado para 64 bits): [4D_Info_Report_v4_9rZ8_15_rev2.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
 
-* componente para la versión 4D 14 (también compilado para 64 bits): [4D_Info_Report_v4_9rZ2_v14_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
+* componente para la versión 4D 14 (también compilado para 64 bits): [4D_Info_Report_v4_9rZ2_14_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
 
-* componente para la versión 4D 13 (también compilado para 64 bits): [4D_Info_Report_v4_9rZ2_v13_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
+* componente para la versión 4D 13 (también compilado para 64 bits): [4D_Info_Report_v4_9rZ2_13_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
 
-* componente para la versión 4D 12 (también compilado para 64 bits): [4D_Info_Report_v4_9rZ_v12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ_v12.zip)
+* componente para la versión 4D 12 (también compilado para 64 bits): [4D_Info_Report_v4_9rZ_12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ_v12.zip)
 
-* base de datos de host (4D 12) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba: [4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v6_v12.zip)
+* base de datos de host (4D 12) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba: [4D_Info_Report_Host_T_v6_12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v6_v12.zip)

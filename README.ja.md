@@ -31,8 +31,6 @@
 
 **_方法 1:_**
 
-> **Important**
->
 > 4D 20 R6以降が対象です。
 
 - `/Project/Sources/`フォルダー内に`dependencies.json`ファイルを作成する
@@ -52,8 +50,6 @@
 
 - プロジェクトを再起動する
 
-> **Note**
->
 > -   コンポーネントは自動的に下記のフォルダーにダウンロードされます。
 >     -   ~/Library/Cache/4D/dependencies/.github/4d/4D_Info_Report/ (Mac)
 >     -   ~\AppData\Local\4D\Dependency\\.github\4d\4D_Info_Report\ (Windows)
@@ -128,22 +124,22 @@ End if
 
 # 過去バージョン
 
-- 4D 18コンポーネント : [4D_Info_Report_v4_65_v18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_65_v18.zip)
+- 4D 18コンポーネント : [4D_Info_Report_v4_65_18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_65_v18.zip)
 
-- 4D 17コンポーネント（64ビット）: [4D_Info_Report_v4_33_64-bit_v17.zipｐ](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_64-bit_v17.zip)
+- 4D 17コンポーネント（64ビット）: [4D_Info_Report_v4_33_64-bit_17.zipｐ](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_64-bit_v17.zip)
 
-- 4D 17コンポーネント（32/64ビット）: [4D_Info_Report_v4_33_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_v17.zip)
+- 4D 17コンポーネント（32/64ビット）: [4D_Info_Report_v4_33_17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_v17.zip)
 
-- 4D 17ホストデータベースと共有メソッドの例題（*Components* フォルダーにコンポーネントをインストールしてください）: [4D_Info_Report_Host_T_v8_v17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v8_v17.zip)
+- 4D 17ホストデータベースと共有メソッドの例題（*Components* フォルダーにコンポーネントをインストールしてください）: [4D_Info_Report_Host_T_v8_17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v8_v17.zip)
 
-- 4D 16コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZC_v16_rev3.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZC_v16_rev3.zip)
+- 4D 16コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZC_16_rev3.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZC_v16_rev3.zip)
 
-- 4D 15コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ8_v15_rev2.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
+- 4D 15コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ8_15_rev2.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ8_v15_rev2.zip)
 
-- 4D 14コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ2_v14_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
+- 4D 14コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ2_14_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v14_rev1.zip)
 
-- 4D 13コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ2_v13_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
+- 4D 13コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ2_13_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
 
-- 4D 12コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ_v12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ_v12.zip)
+- 4D 12コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ_12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ_v12.zip)
 
-- 4D 12ホストデータベースと共有メソッドの例題（*Components* フォルダーにコンポーネントをインストールしてください）: [4D_Info_Report_Host_T_v6_v12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v6_v12.zip)
+- 4D 12ホストデータベースと共有メソッドの例題（*Components* フォルダーにコンポーネントをインストールしてください）: [4D_Info_Report_Host_T_v6_12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v6_v12.zip)
