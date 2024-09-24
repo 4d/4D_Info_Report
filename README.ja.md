@@ -50,9 +50,9 @@
 
 - プロジェクトを再起動する
 
-> -   コンポーネントは自動的に下記のフォルダーにダウンロードされます。
->     -   ~/Library/Cache/4D/dependencies/.github/4d/4D_Info_Report/ (Mac)
->     -   ~\AppData\Local\4D\Dependency\\.github\4d\4D_Info_Report\ (Windows)
+>   コンポーネントは自動的に下記のフォルダーにダウンロードされます。
+>   -   ~/Library/Cache/4D/dependencies/.github/4d/4D_Info_Report/ (Mac)
+>   -   ~\AppData\Local\4D\Dependency\\.github\4d\4D_Info_Report\ (Windows)
 
 **_方法 2:_**
 

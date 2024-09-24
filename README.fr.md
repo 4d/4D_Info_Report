@@ -50,9 +50,9 @@ Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 
 * Le composant se chargera automatiquement après la réouverture du projet 4D
 
-> * Le composant sera téléchargé dans le dossier :
->   * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (sur Mac)
->   * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (sous Windows)
+> Le composant sera téléchargé dans le dossier :
+> * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (sur Mac)
+> * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (sous Windows)
 
 **_Procédure n°2:_**
 

@@ -50,9 +50,9 @@ The component `4D_Info_Report` provides a large number of information:
 
 * The component will load automatically after reopening your 4D project
 
-> * The component will be present in the folder:
->   * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (on Mac)
->   * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (on Windows)
+> The component will be present in the folder:
+> * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (on Mac)
+> * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (on Windows)
 
 **_Procedure n°2:_**
 
@@ -106,7 +106,7 @@ You can analyze these reports:
 
 * reference of the component: [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
 
-* host database (4D 19) with some host shared methods example (please add the component in the "Components" folder for your test: [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
+* host database (4D 19) with some host shared methods example (please add the component in the "Components" folder for your test): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
 * component for version 4D 20 R6 (also compiled for Apple Silicon processor): [4D_Info_Report_20R6](https://github.com/4d/4D_Info_Report/releases/latest/)
 

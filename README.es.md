@@ -50,9 +50,9 @@ el componente`4D_Info_Report`proporciona una gran cantidad de información:
 
 * El componente se cargará automáticamente después de volver a abrir su proyecto 4D.
 
-> * El componente estará presente en la carpeta:
->   * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (en Mac)
->   * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (en Windows)
+> El componente estará presente en la carpeta:
+> * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (en Mac)
+> * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (en Windows)
 
 **_Procedimiento n°2:_**
 
@@ -106,7 +106,7 @@ Puedes analizar estos informes:
 
 * referencia del componente: [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
 
-* base de datos de host (4D 19) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba: [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
+* base de datos de host (4D 19) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
 * componente para la versión 4D 20 R6 (también compilado para el procesador Apple Silicon): [4D_Info_Report_20R6](https://github.com/4d/4D_Info_Report/releases/latest/)
 

@@ -50,9 +50,9 @@ Die Komponente`4D_Info_Report`bietet zahlreiche Informationen:
 
 -   Die Komponente wird automatisch geladen, nachdem Sie Ihr 4D-Projekt erneut geöffnet haben
 
-> * Die Komponente befindet sich im Ordner:
->   * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (auf Mac)
->   * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (unter Windows)
+> Die Komponente befindet sich im Ordner:
+> * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (auf Mac)
+> * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (unter Windows)
 
 **_Verfahren Nr. 2:_**
 
@@ -106,7 +106,7 @@ Sie können diese Berichte analysieren:
 
 * Referenz der Komponente: [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
 
-* Host-Datenbank (4D 19) mit einigen Beispielen für gemeinsam genutzte Host-Methoden (bitte fügen Sie die Komponente für Ihren Test im Ordner „Components“ hinzu: [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
+* Host-Datenbank (4D 19) mit einigen Beispielen für gemeinsam genutzte Host-Methoden (bitte fügen Sie die Komponente für Ihren Test im Ordner „Components“ hinzu): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
 * Komponente für Version 4D 20 R6 (auch für Apple Silicon Prozessor kompiliert): [4D_Info_Report_20R6](https://github.com/4d/4D_Info_Report/releases/latest/)
 
