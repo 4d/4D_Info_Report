@@ -27,15 +27,19 @@ The component `4D_Info_Report` provides a large number of information:
 
 <br>
 
-# How to use this component?
+# How to install this component?
 
-**_Procedure n°1:_**
+There are 2 ways to install this component:
+* 1/ Automatically: using the dependency manager ([new 4D feature, available from version 4D 20 R6](https://blog.4d.com/integrate-4d-components-directly-from-github/))
+* 2/ Manually: by copying and pasting the 4D_Info_Report component into the `Components` folder of the 4D project (works with all versions of 4D)
 
-> Requires version 20 R6 or higher
+**_1/ Automatically_**
+
+> This method requires at least version 20 R6 of 4D
 
 * Create a `dependencies.json` file in the `/Project/Sources/` folder
 
-* Copy and paste the text below into the `dependencies.json` file
+* Copy and paste the text below into this file:
 
 ```json
 {
@@ -48,21 +52,55 @@ The component `4D_Info_Report` provides a large number of information:
 }
 ```
 
-* The component will load automatically after reopening your 4D project
+* Restart 4D or 4D Server, the component will load automatically after reopening the 4D project.
 
-> The component will be present in the folder:
+> For your information, the component will be downloaded into the:
 > * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (on Mac)
 > * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (on Windows)
 
-**_Procedure n°2:_**
+* Follow one of the 2 ways of using the component (see next paragraph) to generate one or more reports
 
-Create a folder `Components` next to the structure or application file (if it does not already exist), copy the unarchived component, and restart your 4D or 4D Server.
+**_2/ Manually_**
 
-Then you can directly execute the shared method: `aa4D_NP_Report_Manage_Display` from 4D Remote.
+> This method works with all versions of 4D
 
-A dialog from the component will let you start the Stored procedure to create reports every N minutes on the Server.
+* Download the version of the component corresponding to your version of 4D (see the `Download` or `Archives` section of this article)
 
-You can also implement in your Host database, this small code in your `On Server startup` method to execute any of the shared methods (they all begins with `aa4D_`):
+* Create a `Components` folder in the 4D project folder (if no such folder exists)
+
+* Copy the unarchived component to this `Components` folder
+
+* Restart 4D or 4D Server
+
+* Follow one of the 2 ways of using the component below to generate one or more reports
+
+<br>
+
+# How to use this component?
+
+There are 2 ways to use this component:
+* 1/ Generate reports every N minutes
+* 2/ Generate a report on demand
+
+> Reports (text files) are created in a new `Folder_reports` folder next to the data file.
+
+For each of them, you can use the component:
+* Without modifying the code of the host database: Execute a shared method of the component by `manually` creating a procedure stored on the server. The advantage is that you don't need to modify the code of the host database, which is particularly useful if the application is deployed in a compiled version, as it avoids recompilation. However, the disadvantage is that you have to run the shared method again after each restart of the 4D server for the stored procedure to be active.
+* By modifying the host database code: This method consists of adding code directly to the host database. It allows you to create the stored procedure automatically when the 4D server starts up, which is very useful for generating reports autonomously and without intervention. This is an "automated" solution, where everything is in place as soon as the server is launched.
+
+> Both approaches have their advantages, depending on the context and monitoring needs of the application.
+
+**_1/ Generate reports every N minutes_**
+
+**_Without modifying the host code:_**
+
+* Run shared method `aa4D_NP_Report_Manage_Display` from 4D Remote
+
+* A component dialog will allow you to start the stored procedure to create a report every N minutes on the 4D server
+
+**_By modifying the host code:_**
+
+* Copy and paste the sample code below into the `On server startup` database method of your host database:
 
 ```4d
 var $NP : Integer
@@ -74,11 +112,15 @@ If(Find in array($at_Components;"4D_Info_Report@")>0)
 End if
 ```
 
-**_Procedure n°3:_**
+**_2/ Generate a single report_**
 
-You can just create one report using the shared method `aa4D_NP_Util_CreateReport_Serv`.
+**_Without modifying the host code:_**
 
-The created reports (text files) are stored in a created folder `Folder_reports` next to the data file.
+* Create a report by executing the shared method `aa4D_NP_Util_CreateReport_Serv`
+
+**_By modifying the host code:_**
+
+* Copy and paste the sample code below into your host database:
 
 ```4d
 var $NP : Integer

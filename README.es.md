@@ -27,15 +27,19 @@ el componente`4D_Info_Report`proporciona una gran cantidad de información:
 
 <br>
 
-# ¿Cómo utilizar este componente?
+# ¿Cómo se instala este componente?
 
-**_Procedimiento n°1:_**
+Existen 2 formas de instalar este componente:
+* 1/ Automáticamente: mediante el gestor de dependencias ([nueva funcionalidad 4D, disponible a partir de la versión 4D 20 R6](https://blog.4d.com/integrate-4d-components-directly-from-github/))
+* 2/ Manualmente: copiando y pegando el componente 4D_Info_Report en la carpeta `Components' del proyecto 4D (funciona con todas las versiones de 4D)
 
-> Requiere la versión 20 R6 o superior
+**_1/ Automáticamente_**
 
-* Crear un`dependencies.json`archivo en el`/Project/Sources/`carpeta
+> Este método requiere el uso de al menos la versión 20 R6 de 4D
 
-* Copie y pegue el texto a continuación en el`dependencies.json`archivo
+* Crear un archivo `dependencies.json` en la carpeta `/Project/Sources/`
+
+* Copie y pegue el texto siguiente en este archivo:
 
 ```json
 {
@@ -48,21 +52,55 @@ el componente`4D_Info_Report`proporciona una gran cantidad de información:
 }
 ```
 
-* El componente se cargará automáticamente después de volver a abrir su proyecto 4D.
+* Reinicie 4D o 4D Server, el componente se cargará automáticamente cuando se vuelva a abrir el proyecto 4D
 
-> El componente estará presente en la carpeta:
+> A título informativo, el componente se descargará en el archivo:
 > * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (en Mac)
 > * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (en Windows)
 
-**_Procedimiento n°2:_**
+* Siga una de las 2 maneras de utilizar el componente (véase el párrafo siguiente) para generar uno o varios informes
 
-Crear una carpeta`Components`junto al archivo de estructura o aplicación (si aún no existe), copie el componente no archivado y reinicie su 4D o 4D Server.
+**_2/ Manual_**
 
-Luego puedes ejecutar directamente el método compartido:`aa4D_NP_Report_Manage_Display`desde 4D Remoto.
+> Este método funciona con todas las versiones de 4D
 
-Un cuadro de diálogo del componente le permitirá iniciar el procedimiento almacenado para crear informes cada N minutos en el servidor.
+* Descargue la versión del componente correspondiente a su versión de 4D (consulte la sección `Descargar` o `Archivos` de este artículo)
 
-También puedes implementar en tu base de datos Host, este pequeño código en tu`On Server startup`método para ejecutar cualquiera de los métodos compartidos (todos comienzan con`aa4D_`):
+* Cree una carpeta `Components` en la carpeta del proyecto 4D (si esta carpeta no existe)
+
+* Copie el componente no archivado en esta carpeta `Components`
+
+* Reiniciar 4D o 4D Server
+
+* Siga una de las 2 formas de utilizar el componente que se indican a continuación para generar uno o varios informes
+
+<br>
+
+# ¿Cómo utilizar este componente?
+
+Existen dos formas de utilizar este componente:
+* 1/ Generar informes cada N minutos
+* 2/ Generar un informe previa solicitud
+
+> Los informes (archivos de texto) se crean en una nueva carpeta llamada `Carpeta_informes` junto al archivo de datos.
+
+Puede utilizar el botón:
+* Sin modificar el código de la base de datos anfitriona: Ejecute un método compartido del componente creando `manualmente' un procedimiento almacenado en el servidor. La ventaja es que no es necesario modificar el código de la base de datos anfitriona, lo que resulta especialmente útil si la aplicación se despliega en una versión compilada, ya que evita la recompilación. Sin embargo, la desventaja es que tiene que volver a ejecutar el método compartido después de cada reinicio del servidor 4D para que el procedimiento almacenado esté activo.
+* Modificando el código en la base de datos host: Este método consiste en añadir código directamente en la base de datos host. Permite crear automáticamente el procedimiento almacenado cuando se inicia el servidor 4D, lo que es muy útil para generar informes de forma autónoma y sin intervención. Se trata de una solución "automatizada" en la que todo está listo en cuanto se inicia el servidor.
+
+> Ambos enfoques tienen sus ventajas, dependiendo del contexto y de los requisitos de supervisión de la aplicación.
+
+**_1/ Generar informes cada N minutos_**
+
+**_Sin modificar el código anfitrión:_**
+
+* Ejecuta el método compartido `aa4D_NP_Report_Manage_Display` de 4D Remote
+
+* Un diálogo de componentes le permitirá iniciar el procedimiento almacenado para crear un informe cada N minutos en el servidor 4D
+
+**_Mediante la modificación del código de la base de acogida:_**
+
+* Copie y pegue el código de ejemplo siguiente en el método base `On server startup` de su base de datos host:
 
 ```4d
 var $NP : Integer
@@ -74,11 +112,15 @@ If(Find in array($at_Components;"4D_Info_Report@")>0)
 End if
 ```
 
-**_Procedimiento n°3:_**
+**_2/ Generar un único informe_**
 
-Puede crear un solo informe utilizando el método compartido`aa4D_NP_Util_CreateReport_Serv`.
+**_Sin modificar el código anfitrión:_**
 
-Los informes creados (archivos de texto) se almacenan en una carpeta creada.`Folder_reports`al lado del archivo de datos.
+* Crea un informe ejecutando el método compartido `aa4D_NP_Util_CreateReport_Serv`
+
+**_Mediante la modificación del código de la base de acogida:_**
+
+* Copie y pegue el código de ejemplo siguiente en la base de datos de su host:
 
 ```4d
 var $NP : Integer

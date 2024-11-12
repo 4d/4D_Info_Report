@@ -27,15 +27,19 @@ Die Komponente`4D_Info_Report`bietet zahlreiche Informationen:
 
 <br>
 
-# Wie verwende ich diese Komponente?
+# Wie installiert man diese Komponente?
 
-**_Verfahren Nr. 1:_**
+Es gibt 2 Möglichkeiten, diese Komponente zu installieren:
+* 1/ Automatisch: mithilfe des Abhängigkeitsmanagers ([neue 4D Funktionalität, verfügbar ab Version 4D 20 R6](https://blog.4d.com/integrate-4d-components-directly-from-github/))
+* 2/ Manuell: Durch Kopieren und Einfügen der Komponente 4D_Info_Report in den Ordner `Components` des 4D Projekts (funktioniert mit allen 4D Versionen)
 
-> Erfordert Version 20 R6 oder höher
+**_1/ Automatisch_**
 
-* Erstellen Sie eine`dependencies.json`Datei in der`/Project/Sources/`Ordner
+> Diese Methode erfordert, dass Sie mindestens 4D Version 20 R6 verwenden
 
-* Kopieren Sie den Text unten und fügen Sie ihn in die ein`dependencies.json`Datei
+* Erstellen Sie eine Datei `dependencies.json` im Ordner `/Project/Sources/`
+
+* Kopieren Sie den unten stehenden Text in diese Datei:
 
 ```json
 {
@@ -48,21 +52,55 @@ Die Komponente`4D_Info_Report`bietet zahlreiche Informationen:
 }
 ```
 
--   Die Komponente wird automatisch geladen, nachdem Sie Ihr 4D-Projekt erneut geöffnet haben
+* Starten Sie 4D oder 4D Server neu, die Komponente wird nach dem erneuten Öffnen des 4D Projekts automatisch geladen
 
-> Die Komponente befindet sich im Ordner:
-> * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (auf Mac)
+> Zur Information wird die Komponente in den Ordner:
+> * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (auf dem Mac)
 > * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (unter Windows)
 
-**_Verfahren Nr. 2:_**
+* Folgen Sie einer der beiden Möglichkeiten, die Komponente zu verwenden (siehe nächster Abschnitt), um einen oder mehrere Berichte zu erstellen
 
-Erstellen Sie einen Ordner`Components`neben der Struktur- oder Anwendungsdatei (falls diese noch nicht vorhanden ist), kopieren Sie die nicht archivierte Komponente und starten Sie Ihren 4D oder 4D Server neu.
+**_2/ Manuell_**
 
-Dann können Sie die gemeinsam genutzte Methode direkt ausführen:`aa4D_NP_Report_Manage_Display`von 4D Remote.
+> Diese Methode funktioniert mit allen Versionen von 4D
 
-Über einen Dialog der Komponente können Sie die gespeicherte Prozedur starten, um alle N Minuten Berichte auf dem Server zu erstellen.
+* Laden Sie die Version der Komponente herunter, die Ihrer 4D Version entspricht (siehe Abschnitt `Herunterladen` oder `Archiv` in diesem Artikel)
 
-Sie können diesen kleinen Code auch in Ihrer Host-Datenbank implementieren`On Server startup`Methode, um eine der gemeinsam genutzten Methoden auszuführen (sie beginnen alle mit`aa4D_`):
+* Erstellen Sie einen Ordner `Components` im Ordner des 4D Projekts (falls dieser Ordner nicht existiert)
+
+* Kopieren Sie die eingecheckte Komponente in diesen Ordner `Components`
+
+* 4D oder 4D Server neu starten
+
+* Befolgen Sie eine der beiden Möglichkeiten, die Komponente unten zu verwenden, um einen oder mehrere Berichte zu erstellen
+
+<br>
+
+# Wie verwende ich diese Komponente?
+
+Es gibt 2 Möglichkeiten, diese Komponente zu verwenden:
+* 1/ Berichte alle N Minuten erstellen
+* 2/ Auf Anfrage einen Bericht erstellen
+
+> Die Berichte (Textdatei) werden in einem neuen Ordner `Folder_reports` neben der Datendatei erstellt.
+
+Für jede von ihnen können Sie die Komponente :
+* Ohne Änderung des Codes der Host-Datenbank: Ausführen einer gemeinsam genutzten Methode der Komponente durch `manuelles` Erstellen einer auf dem Server gespeicherten Prozedur. Der Vorteil ist, dass Sie den Code der Hostbasis nicht ändern müssen. Dies ist besonders nützlich, wenn die Anwendung als kompilierte Version bereitgestellt wird, da so eine Neukompilierung vermieden wird. Der Nachteil ist jedoch, dass Sie die gemeinsam genutzte Methode nach jedem Neustart des 4D Servers erneut ausführen müssen, damit die gespeicherte Prozedur aktiv ist.
+* Durch Ändern des Code in der Host Datenbank: Bei dieser Methode wird Code direkt in die Host Datenbank eingefügt. Sie erstellt die Prozedur, die beim Starten des 4D Servers automatisch gespeichert wird, was sehr nützlich ist, um Berichte selbständig und ohne Eingreifen zu erstellen. Es ist eine `automatisierte` Lösung, bei der alles an seinem Platz ist, sobald der Server startet.
+
+> Beide Ansätze haben je nach Kontext und Überwachungsbedarf der Anwendung ihre Vorteile.
+
+**_1/ Berichte alle N Minuten erstellen_**
+
+**_Ohne den Code der Hostbasis zu ändern:_**
+
+* Führen Sie die gemeinsam genutzte Methode `aa4D_NP_Report_Manage_Display` aus 4D Distant aus
+
+* Über einen Dialog der Komponente können Sie die gespeicherte Prozedur starten, um alle N Minuten einen Bericht auf dem 4D Server zu erstellen
+
+**_Indem Sie den Code der Hostbasis ändern:_**
+
+* Kopieren Sie den unten stehenden Beispielcode in die Datenbankmethode `Auf Serverstart` Ihrer Hostdatenbank:
 
 ```4d
 var $NP : Integer
@@ -74,11 +112,15 @@ If(Find in array($at_Components;"4D_Info_Report@")>0)
 End if
 ```
 
-**_Verfahren Nr. 3:_**
+**_2/ Einen einzelnen Bericht erstellen_**
 
-Sie können mit der gemeinsamen Methode nur einen Bericht erstellen`aa4D_NP_Util_CreateReport_Serv`.
+**_Ohne den Code der Hostbasis zu ändern:_**
 
-Die erstellten Berichte (Textdateien) werden in einem erstellten Ordner gespeichert`Folder_reports`neben der Datendatei.
+* Erstellen eines Berichts durch Ausführen der gemeinsam genutzten Methode `aa4D_NP_Util_CreateReport_Serv`
+
+**_Indem Sie den Code der Hostbasis ändern:_**
+
+* Kopieren Sie den folgenden Beispielcode in Ihre Hostdatenbank:
 
 ```4d
 var $NP : Integer

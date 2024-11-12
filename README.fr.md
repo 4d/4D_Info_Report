@@ -27,15 +27,19 @@ Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 
 <br>
 
-# Comment utiliser ce composant ?
+# Comment installer ce composant ?
 
-**_Procédure n°1:_**
+Il existe 2 manières d'installer ce composant :
+* 1/ Automatiquement : en utilisant le gestionnaire des dépendances ([nouvelle fonctionnalité 4D, disponible à partir de la version 4D 20 R6](https://blog.4d.com/integrate-4d-components-directly-from-github/))
+* 2/ Manuellement : en copiant collant le composant 4D_Info_Report dans le dossier `Components` du projet 4D (fonctionne avec toutes les versions de 4D)
 
-> Nécessite une version 20 R6 ou supérieure
+**_1/ Automatiquement_**
+
+> Cette méthode nécessite d'utiliser la version 20 R6 de 4D minimum
 
 * Créer un fichier `dependencies.json` dans le dossier `/Project/Sources/`
 
-* Copier coller le texte ci-dessous dans le fichier `dependencies.json`
+* Copier coller le texte ci-dessous dans ce fichier :
 
 ```json
 {
@@ -48,37 +52,75 @@ Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 }
 ```
 
-* Le composant se chargera automatiquement après la réouverture du projet 4D
+* Redémarrer 4D ou 4D Server, le composant se chargera automatiquement après la réouverture du projet 4D
 
-> Le composant sera téléchargé dans le dossier :
+> Pour information le composant sera téléchargé dans le dossier :
 > * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (sur Mac)
 > * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (sous Windows)
 
-**_Procédure n°2:_**
+* Suivre l'une des 2 manières d'utiliser le composant (voir paragraphe suivant) pour générer un ou plusieurs rapports
 
-Créer un dossier `Components` à côté de la structure ou de l'application (si ce dossier n'existe pas), copier le composant désarchivé et redémarrer 4D ou 4D Server.
+**_2/ Manuellement_**
 
-Vous pourrez directement exécuter la méthode partagée `aa4D_NP_Report_Manage_Display` depuis 4D Distant.
+> Cette méthode fonctionne avec toutes les versions de 4D
 
-Un dialogue du composant vous permettra de démarrer la procédure stockée pour créer un rapport toutes les N minutes sur le Server.
+* Télécharger la version du composant correspondant à votre version de 4D (voir le paragraphe `Téléchargement` ou `Archives` de cet article)
 
-Vous pouvez aussi implémenter dans votre base hôte cet exemple de code dans la méthode base `Sur démarrage serveur` pour exécuter toute méthode partagée (leur nom commence par `aa4D_`) :
+* Créer un dossier `Components` dans le dossier du projet 4D (si ce dossier n'existe pas)
+
+* Copier le composant désarchivé dans ce dossier `Components`
+
+* Redémarrer 4D ou 4D Server
+
+* Suivre l'une des 2 manières d'utiliser le composant ci-dessous pour générer un ou plusieurs rapports
+
+<br>
+
+# Comment utiliser ce composant ?
+
+Il existe 2 manières d'utiliser ce composant :
+* 1/ Générer des rapports toutes les N minutes
+* 2/ Générer un rapport à la demande
+
+> Les rapports (fichier texte) sont créés dans un nouveau dossier `Folder_reports` à côté du fichier de données.
+
+Pour chacune d'elles, vous pouvez utiliser le composant :
+* Sans modifier le code de la base hôte : Exécuter une méthode partagée du composant en créant `manuellement` une procédure stockée sur le serveur. L’avantage est qu’il n’est pas nécessaire de modifier le code de la base hôte, ce qui est particulièrement utile si l’application est déployée en version compilée, car cela évite une recompilation. Cependant, l’inconvénient est que vous devez exécuter à nouveau la méthode partagée après chaque redémarrage du serveur 4D pour que la procédure stockée soit active.
+* En modifiant le code de la base hôte : Cette méthode consiste à ajouter du code directement dans la base hôte. Elle permet de créer la procédure stockée automatiquement lors du démarrage du serveur 4D, ce qui est très utile pour générer des rapports de façon autonome et sans intervention. C’est une solution `automatisée` où tout est en place dès que le serveur se lance.
+
+> Ces deux approches ont chacune leurs avantages selon le contexte et les besoins en surveillance de l’application.
+
+**_1/ Générer des rapports toutes les N minutes_**
+
+**_Sans modifier le code de la base hôte :_**
+
+* Exécuter la méthode partagée `aa4D_NP_Report_Manage_Display` depuis 4D Distant
+
+* Un dialogue du composant vous permettra de démarrer la procédure stockée pour créer un rapport toutes les N minutes sur le serveur 4D
+
+**_En modifiant le code de la base hôte :_**
+
+* Copier coller l'exemple de code ci-dessous dans la méthode base `Sur démarrage serveur` de votre base hôte :
 
 ```4d
 var $NP : Integer
 ARRAY TEXT($at_Components;0)
 COMPONENT LIST($at_Components)
 If(Find in array($at_Components;"4D_Info_Report@")>0)
-  // pour démarrer la procédure stockée créant un rapport toutes les 5 minutes
+  // pour démarrer la procédure stockée en créant un rapport toutes les 5 minutes
   $NP:=New process("aa4D_NP_Schedule_Reports_Server";0;"$4DIR_NP";5;0)
 End if
 ```
 
-**_Procédure n°3:_**
+**_2/ Générer un rapport unique_**
 
-Vous pouvez juste créer un rapport en exécutant la méthode partagée `aa4D_NP_Util_CreateReport_Serv`.
+**_Sans modifier le code de la base hôte :_**
 
-Les rapports (fichier texte) sont créés dans un nouveau dossier `Folder_reports` à côté du fichier de données.
+* Créer un rapport en exécutant la méthode partagée `aa4D_NP_Util_CreateReport_Serv`
+
+**_En modifiant le code de la base hôte :_**
+
+* Copier coller l'exemple de code ci-dessous dans votre base hôte :
 
 ```4d
 var $NP : Integer
