@@ -40,12 +40,19 @@ jobs:
           TAG=${{ steps.version.outputs.inforeport_version }}
           echo "major_version=${TAG:0:1}" >> $GITHUB_OUTPUT
         shell: bash
-
+#4.82.2
       - name: Get minor version
         id: minor_version
         run: |
           TAG=${{ steps.version.outputs.inforeport_version }}
           echo "minor_version=${TAG:2:2}" >> $GITHUB_OUTPUT
+        shell: bash
+
+      - name: Get patch version
+        id: patch_version
+        run: |
+          TAG=${{ steps.version.outputs.inforeport_version }}
+          echo "patch_version=${TAG:5:1}" >> $GITHUB_OUTPUT
         shell: bash
 
       - name: Download artifact 4D R
@@ -69,8 +76,8 @@ jobs:
         id: download
         run: |
           rm 4DIR/4D_Info_Report.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_20R6.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_20.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-LTS.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20R6.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-LTS.zip
         shell: bash
 
       - name: Upload others assets

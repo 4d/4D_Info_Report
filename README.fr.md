@@ -30,7 +30,7 @@ Le composant `4D_Info_Report` sert à collecter un maximum d'informations :
 # Comment installer ce composant ?
 
 Il existe 2 manières d'installer ce composant :
-* 1/ Automatiquement : en utilisant le gestionnaire des dépendances ([nouvelle fonctionnalité 4D, disponible à partir de la version 4D 20 R6](https://blog.4d.com/integrate-4d-components-directly-from-github/))
+* 1/ Automatiquement : en utilisant le gestionnaire des dépendances ([nouvelle fonctionnalité 4D, disponible à partir de la version 4D 20 R6](https://blog.4d.com/fr/integrate-4d-components-directly-from-github/))
 * 2/ Manuellement : en copiant collant le composant 4D_Info_Report dans le dossier `Components` du projet 4D (fonctionne avec toutes les versions de 4D)
 
 **_1/ Automatiquement_**

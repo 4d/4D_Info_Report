@@ -52,7 +52,7 @@ There are 2 ways to install this component:
 }
 ```
 
-* Restart 4D or 4D Server, the component will load automatically after reopening the 4D project.
+* Restart 4D or 4D Server, the component will load automatically after reopening the 4D project
 
 > For your information, the component will be downloaded into the:
 > * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (on Mac)
