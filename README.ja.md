@@ -149,11 +149,11 @@ End if
 
 # ダウンロード
 
-- リファレンス : [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
+- リファレンス : [4D_Info_Report_v4_89_7_Ref_v41.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_89_7_Ref_v41.pdf)
 
 - 4D 19ホストデータベースと共有メソッドの例題（*Components* フォルダーにコンポーネントをインストールしてください）: [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-- 4D 20 R6コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_20R6](https://github.com/4d/4D_Info_Report/releases/latest/)
+- 4D 20 R7コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_20R7](https://github.com/4d/4D_Info_Report/releases/latest/)
 
 - 4D 20 LTS コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_20](https://github.com/4d/4D_Info_Report/releases/latest/)
 

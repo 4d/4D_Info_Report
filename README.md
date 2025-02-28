@@ -146,11 +146,11 @@ You can analyze these reports:
 
 # Download
 
-* reference of the component: [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
+* reference of the component: [4D_Info_Report_v4_89_7_Ref_v41.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_89_7_Ref_v41.pdf)
 
 * host database (4D 19) with some host shared methods example (please add the component in the "Components" folder for your test): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-* component for version 4D 20 R6 (also compiled for Apple Silicon processor): [4D_Info_Report_20R6](https://github.com/4d/4D_Info_Report/releases/latest/)
+* component for version 4D 20 R7 (also compiled for Apple Silicon processor): [4D_Info_Report_20R7](https://github.com/4d/4D_Info_Report/releases/latest/)
 
 * component for version 4D 20 LTS (also compiled for Apple Silicon processor): [4D_Info_Report_20](https://github.com/4d/4D_Info_Report/releases/latest/)
 

@@ -146,11 +146,11 @@ Puedes analizar estos informes:
 
 # Descargar
 
-* referencia del componente: [4D_Info_Report_v4_80_Ref_v40.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_80_Ref_v40.pdf)
+* referencia del componente: [4D_Info_Report_v4_89_7_Ref_v41.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_89_7_Ref_v41.pdf)
 
 * base de datos de host (4D 19) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-* componente para la versión 4D 20 R6 (también compilado para el procesador Apple Silicon): [4D_Info_Report_20R6](https://github.com/4d/4D_Info_Report/releases/latest/)
+* componente para la versión 4D 20 R7 (también compilado para el procesador Apple Silicon): [4D_Info_Report_20R7](https://github.com/4d/4D_Info_Report/releases/latest/)
 
 * componente para la versión 4D 20 LTS (también compilado para el procesador Apple Silicon): [4D_Info_Report_20](https://github.com/4d/4D_Info_Report/releases/latest/)
 
