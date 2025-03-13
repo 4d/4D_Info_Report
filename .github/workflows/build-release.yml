@@ -67,7 +67,7 @@ jobs:
         with:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D_Info_Report.zip
-          tag: "20.7.0"
+          tag: "20R7"
           body: for automatic download via dependencies manager (see readme)
           file_glob: true
           overwrite: true

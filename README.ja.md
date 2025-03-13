@@ -48,7 +48,7 @@
 	"dependencies": {
 		"4D_Info_Report": {
 			"github": "4d/4D_Info_Report",
-			"version": "20.*"
+			"version": "4d"
 		}
 	}
 }
