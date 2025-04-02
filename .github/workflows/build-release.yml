@@ -55,19 +55,19 @@ jobs:
           echo "patch_version=${TAG:5:1}" >> $GITHUB_OUTPUT
         shell: bash
 
-      - name: Download artifact 4D R
-        id: download-4D-R
+      - name: Download artifact 4D R8
+        id: download-4D-R8
         run: |
           mkdir 4DIR
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R8.zip
         shell: bash
 
-      - name: Upload asset 4D R
+      - name: Upload asset 4D R8
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D_Info_Report.zip
-          tag: "20R7"
+          tag: "20R8"
           body: for automatic download via dependencies manager (see readme)
           file_glob: true
           overwrite: true
@@ -76,7 +76,8 @@ jobs:
         id: download
         run: |
           rm 4DIR/4D_Info_Report.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20R7.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20R7.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R7.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20R8.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R8.zip
           curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-LTS.zip
         shell: bash
 
