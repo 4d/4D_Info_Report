@@ -46,7 +46,7 @@ Il existe 2 manières d'installer ce composant :
 	"dependencies": {
 		"4D_Info_Report": {
 			"github": "4d/4D_Info_Report",
-			"tag": "20R7"
+			"tag": "20R8"
 		}
 	}
 }
