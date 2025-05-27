@@ -52,7 +52,7 @@ jobs:
         id: patch_version
         run: |
           TAG=${{ steps.version.outputs.inforeport_version }}
-          echo "patch_version=${TAG:5:1}" >> $GITHUB_OUTPUT
+          echo "patch_version=${TAG:5:2}" >> $GITHUB_OUTPUT
         shell: bash
 
       - name: Download artifact 4D R8
