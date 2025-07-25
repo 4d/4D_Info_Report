@@ -46,7 +46,7 @@ There are 2 ways to install this component:
 	"dependencies": {
 		"4D_Info_Report": {
 			"github": "4d/4D_Info_Report",
-			"tag": "20R8"
+			"version": "4d"
 		}
 	}
 }
@@ -150,7 +150,7 @@ You can analyze these reports:
 
 * host database (4D 19) with some host shared methods example (please add the component in the "Components" folder for your test): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-* component for version 4D 20 R8 (also compiled for Apple Silicon processor): [4D_Info_Report_20R8](https://github.com/4d/4D_Info_Report/releases/latest/)
+* component for version 4D 20 R10 (also compiled for Apple Silicon processor): [4D_Info_Report_20R10](https://github.com/4d/4D_Info_Report/releases/latest/)
 
 * component for version 4D 20 LTS (also compiled for Apple Silicon processor): [4D_Info_Report_20](https://github.com/4d/4D_Info_Report/releases/latest/)
 

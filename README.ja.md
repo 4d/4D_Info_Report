@@ -48,7 +48,7 @@
 	"dependencies": {
 		"4D_Info_Report": {
 			"github": "4d/4D_Info_Report",
-			"tag": "20R8"
+			"version": "4d"
 		}
 	}
 }
@@ -153,7 +153,7 @@ End if
 
 - 4D 19ホストデータベースと共有メソッドの例題（*Components* フォルダーにコンポーネントをインストールしてください）: [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-- 4D 20 R8コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_20R8](https://github.com/4d/4D_Info_Report/releases/latest/)
+- 4D 20 R10コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_20R10](https://github.com/4d/4D_Info_Report/releases/latest/)
 
 - 4D 20 LTS コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_20](https://github.com/4d/4D_Info_Report/releases/latest/)
 

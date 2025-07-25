@@ -46,7 +46,7 @@ Es gibt 2 Möglichkeiten, diese Komponente zu installieren:
 	"dependencies": {
 		"4D_Info_Report": {
 			"github": "4d/4D_Info_Report",
-			"tag": "20R8"
+			"version": "4d"
 		}
 	}
 }
@@ -150,7 +150,7 @@ Sie können diese Berichte analysieren:
 
 * Host-Datenbank (4D 19) mit einigen Beispielen für gemeinsam genutzte Host-Methoden (bitte fügen Sie die Komponente für Ihren Test im Ordner „Components“ hinzu): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-* Komponente für Version 4D 20 R8 (auch für Apple Silicon Prozessor kompiliert): [4D_Info_Report_20R8](https://github.com/4d/4D_Info_Report/releases/latest/)
+* Komponente für Version 4D 20 R10 (auch für Apple Silicon Prozessor kompiliert): [4D_Info_Report_20R10](https://github.com/4d/4D_Info_Report/releases/latest/)
 
 * Komponente für Version 4D 20 LTS (auch für Apple Silicon Prozessor kompiliert): [4D_Info_Report_20](https://github.com/4d/4D_Info_Report/releases/latest/)
 

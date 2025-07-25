@@ -46,7 +46,7 @@ Existen 2 formas de instalar este componente:
 	"dependencies": {
 		"4D_Info_Report": {
 			"github": "4d/4D_Info_Report",
-			"tag": "20R8"
+			"version": "4d"
 		}
 	}
 }
@@ -150,7 +150,7 @@ Puedes analizar estos informes:
 
 * base de datos de host (4D 19) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-* componente para la versión 4D 20 R8 (también compilado para el procesador Apple Silicon): [4D_Info_Report_20R8](https://github.com/4d/4D_Info_Report/releases/latest/)
+* componente para la versión 4D 20 R10 (también compilado para el procesador Apple Silicon): [4D_Info_Report_20R10](https://github.com/4d/4D_Info_Report/releases/latest/)
 
 * componente para la versión 4D 20 LTS (también compilado para el procesador Apple Silicon): [4D_Info_Report_20](https://github.com/4d/4D_Info_Report/releases/latest/)
 
