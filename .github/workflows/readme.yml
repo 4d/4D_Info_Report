@@ -2,6 +2,9 @@ name: Translate README
 
 on: [workflow_dispatch]
 
+permissions:
+  contents: write
+
 jobs:
   Translations:
     #runs-on: ubuntu-latest
