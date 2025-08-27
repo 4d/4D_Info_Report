@@ -160,13 +160,13 @@ You can analyze these reports:
 
 * component for version 4D 19 (only compiled for Intel/AMD processor): [4D_Info_Report_v4_83_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19.zip)
 
-* component for version 4D 19 (also compiled for Apple Silicon processor): [4D_Info_Report_v4_83_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_IS_19.zip)
+* component for version 4D 19 (also compiled for Apple Silicon processor): [4D_Info_Report_v4_90_2_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_IS_19.zip)
 
 <br>
 
 # Archives
 
-* component for version 4D 18: [4D_Info_Report_v4_65_18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_65_v18.zip)
+* component for version 4D 18: [4D_Info_Report_v4_90_2_18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_v18.zip)
 
 * component for version 4D 17 (only compiled for 64-bit): [4D_Info_Report_v4_33_64-bit_17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_64-bit_v17.zip)
 
