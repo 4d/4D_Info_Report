@@ -57,7 +57,7 @@
 - 4Dまたは4D Serverを再起動すると，プロジェクト起動と同時にコンポーネントがダウンロードされます。
 
 >   コンポーネントは自動的に下記のフォルダーにダウンロードされます。
->   -   ~/Library/Cache/4D/dependencies/.github/4d/4D_Info_Report/ (Mac)
+>   -   ~/Library/Cache/4D/Dependencies/.github/4d/4D_Info_Report/ (Mac)
 >   -   ~\AppData\Local\4D\Dependency\\.github\4d\4D_Info_Report\ (Windows)
 
 * 後述するいずれかの方法でコンポーネントにレポートを出力させることができます。
