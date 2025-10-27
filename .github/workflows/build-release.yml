@@ -55,14 +55,31 @@ jobs:
           echo "patch_version=${TAG:5:2}" >> $GITHUB_OUTPUT
         shell: bash
 
-      - name: Download artifact 4D R10
-        id: download-4D-R10
+      - name: Download artifact 4D 21
+        id: download-4D-21
         run: |
           mkdir 4DIR
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R10.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-21-LTS.zip
         shell: bash
 
-      - name: Upload asset 4D R10
+      - name: Upload asset 4D 21
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
+          file: ./4DIR/4D_Info_Report.zip
+          tag: "21.0"
+          body: for automatic download via dependencies manager (see readme)
+          file_glob: true
+          overwrite: true
+
+      - name: Download artifact 4D 20R10
+        id: download-4D-20R10
+        run: |
+          rm ./4DIR/4D_Info_Report.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20R10.zip
+        shell: bash
+
+      - name: Upload asset 4D 20R10
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
@@ -76,8 +93,9 @@ jobs:
         id: download
         run: |
           rm 4DIR/4D_Info_Report.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20R10.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-R10.zip
-          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-LTS.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_21.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-21-LTS.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20R10.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20R10.zip
+          curl --ftp-ssl-reqd --user ${{ secrets.FTP_PRIVATE_LOGIN }}:'${{ secrets.FTP_PRIVATE_PASSWORD }}' --output ./4DIR/4D_Info_Report_v${{ steps.major_version.outputs.major_version }}_${{ steps.minor_version.outputs.minor_version }}_${{ steps.patch_version.outputs.patch_version }}_20.zip ${{ secrets.FTP_PRIVATE_PATH }}4D_Info_Report-20-LTS.zip
         shell: bash
 
       - name: Upload others assets
