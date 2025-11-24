@@ -12,11 +12,11 @@ jobs:
     steps:
       - name: Copy repository in runner
         id: checkout_repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Copy package.json in runner
         id: checkout_info_report
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: 4eDimension/4D_Info_Report
           token: ${{ secrets.TARGET_TOKEN_GITHUB }}
