@@ -150,9 +150,17 @@ Puedes analizar estos informes:
 
 * base de datos de host (4D 19) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
+* componente para la versión 4D 21 R2 (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_95_1_21R2.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_21R2.zip)
+
+* componente para la versión 4D 21 LTS (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_95_1_21.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_21.zip)
+
 * componente para la versión 4D 20 R10 (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_95_1_20R10.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_20R10.zip)
 
 * componente para la versión 4D 20 LTS (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_95_1_20.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_20.zip)
+
+<br>
+
+# Archivo
 
 * componente para la versión 4D 19 R6 (sólo compilado para procesador Intel/AMD): [4D_Info_Report_v4_83_I_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_I_19R6.zip)
 
@@ -161,10 +169,6 @@ Puedes analizar estos informes:
 * componente para la versión 4D 19 (sólo compilado para procesador Intel/AMD): [4D_Info_Report_v4_90_2_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_I_19.zip)
 
 * componente para la versión 4D 19 (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_90_2_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_IS_19.zip)
-
-<br>
-
-# Archivo
 
 * componente para la versión 4D 18: [4D_Info_Report_v4_90_2_18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_v18.zip)
 
