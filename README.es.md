@@ -150,13 +150,13 @@ Puedes analizar estos informes:
 
 * base de datos de host (4D 19) con algunos ejemplos de métodos compartidos de host (agregue el componente en la carpeta "Componentes" para su prueba): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-* componente para la versión 4D 21 R2 (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_95_1_21R2.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_21R2.zip)
+* componente para la versión 4D 21 R2 (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_96_1_21R2.zip](https://github.com/4d/4D_Info_Report/releases/download/4.96.1/4D_Info_Report_v4_96_1_21R2.zip)
 
-* componente para la versión 4D 21 LTS (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_95_1_21.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_21.zip)
+* componente para la versión 4D 21 LTS (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_96_1_21.zip](https://github.com/4d/4D_Info_Report/releases/download/4.96.1/4D_Info_Report_v4_96_1_21.zip)
 
-* componente para la versión 4D 20 R10 (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_95_1_20R10.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_20R10.zip)
+* componente para la versión 4D 20 R10 (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_96_1_20R10.zip](https://github.com/4d/4D_Info_Report/releases/download/4.96.1/4D_Info_Report_v4_96_1_20R10.zip)
 
-* componente para la versión 4D 20 LTS (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_95_1_20.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_20.zip)
+* componente para la versión 4D 20 LTS (también compilado para el procesador Apple Silicon): [4D_Info_Report_v4_96_1_20.zip](https://github.com/4d/4D_Info_Report/releases/download/4.96.1/4D_Info_Report_v4_96_1_20.zip)
 
 <br>
 

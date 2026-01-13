@@ -154,13 +154,13 @@ Vous pouvez analyser ces rapports :
 
 * base hôte (4D 19) utilisant des méthodes hôtes à inclure dans votre base (merci d'ajouter le composant dans le dossier "Components" pour tester) : [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
-* composant en version 4D 21 R2 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_95_1_21R2.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_21R2.zip)
+* composant en version 4D 21 R2 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_96_1_21R2.zip](https://github.com/4d/4D_Info_Report/releases/download/4.96.1/4D_Info_Report_v4_96_1_21R2.zip)
 
-* composant en version 4D 21 LTS (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_95_1_21.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_21.zip)
+* composant en version 4D 21 LTS (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_96_1_21.zip](https://github.com/4d/4D_Info_Report/releases/download/4.96.1/4D_Info_Report_v4_96_1_21.zip)
 
-* composant en version 4D 20 R10 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_95_1_20R10.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_20R10.zip)
+* composant en version 4D 20 R10 (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_96_1_20R10.zip](https://github.com/4d/4D_Info_Report/releases/download/4.96.1/4D_Info_Report_v4_96_1_20R10.zip)
 
-* composant en version 4D 20 LTS (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_95_1_20.zip](https://github.com/4d/4D_Info_Report/releases/download/4.95.1/4D_Info_Report_v4_95_1_20.zip)
+* composant en version 4D 20 LTS (compilé aussi pour processeur Apple Silicon) : [4D_Info_Report_v4_96_1_20.zip](https://github.com/4d/4D_Info_Report/releases/download/4.96.1/4D_Info_Report_v4_96_1_20.zip)
 
 <br>
 
