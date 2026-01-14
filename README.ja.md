@@ -169,11 +169,11 @@ End if
 
 - 4D 19 R6コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_v4_83_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_IS_19R6.zip)
 
-- 4D 19コンポーネント（Intel/AMD）: [4D_Info_Report_v4_90_2_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_I_19.zip)
+- 4D 19コンポーネント（Intel/AMD）: [4D_Info_Report_v4_96_1_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_1_I_19.zip)
 
-- 4D 19コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_v4_90_2_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_IS_19.zip)
+- 4D 19コンポーネント（Intel/AMD, Apple Silicon）: [4D_Info_Report_v4_96_1_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_1_IS_19.zip)
 
-- 4D 18コンポーネント : [4D_Info_Report_v4_90_2_18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_v18.zip)
+- 4D 18コンポーネント : [4D_Info_Report_v4_96_1_18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_1_v18.zip)
 
 - 4D 17コンポーネント（64ビット）: [4D_Info_Report_v4_33_64-bit_17.zipｐ](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_64-bit_v17.zip)
 
@@ -190,5 +190,7 @@ End if
 - 4D 13コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ2_13_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
 
 - 4D 12コンポーネント（32/64ビット）: [4D_Info_Report_v4_9rZ_12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ_v12.zip)
+
+- 4D 11コンポーネント : [4D_Info_Report_v3_9_3_v11.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v3_9_3_v11.zip)
 
 - 4D 12ホストデータベースと共有メソッドの例題（*Components* フォルダーにコンポーネントをインストールしてください）: [4D_Info_Report_Host_T_v6_12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v6_v12.zip)

@@ -166,11 +166,11 @@ You can analyze these reports:
 
 * component for version 4D 19 R6 (also compiled for Apple Silicon processor): [4D_Info_Report_v4_83_IS_19R6.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_83_IS_19R6.zip)
 
-* component for version 4D 19 (only compiled for Intel/AMD processor): [4D_Info_Report_v4_90_2_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_I_19.zip)
+* component for version 4D 19 (only compiled for Intel/AMD processor): [4D_Info_Report_v4_96_1_I_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_1_I_19.zip)
 
-* component for version 4D 19 (also compiled for Apple Silicon processor): [4D_Info_Report_v4_90_2_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_IS_19.zip)
+* component for version 4D 19 (also compiled for Apple Silicon processor): [4D_Info_Report_v4_96_1_IS_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_1_IS_19.zip)
 
-* component for version 4D 18: [4D_Info_Report_v4_90_2_18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_2_v18.zip)
+* component for version 4D 18: [4D_Info_Report_v4_96_1_18.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_1_v18.zip)
 
 * component for version 4D 17 (only compiled for 64-bit): [4D_Info_Report_v4_33_64-bit_17.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_33_64-bit_v17.zip)
 
@@ -187,5 +187,7 @@ You can analyze these reports:
 * component for version 4D 13 (also compiled for 64-bit): [4D_Info_Report_v4_9rZ2_13_rev1.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ2_v13_rev1.zip)
 
 * component for version 4D 12 (also compiled for 64-bit): [4D_Info_Report_v4_9rZ_12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_9rZ_v12.zip)
+
+* component for version 4D 11: [4D_Info_Report_v3_9_3_v11.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v3_9_3_v11.zip)
 
 * host database (4D 12) with some host shared methods example (please add the component in the "Components" folder for your test: [4D_Info_Report_Host_T_v6_12.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v6_v12.zip)
