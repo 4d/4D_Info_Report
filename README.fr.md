@@ -150,7 +150,7 @@ Vous pouvez analyser ces rapports :
 
 # Téléchargement
 
-* documentation (en anglais) : [4D_Info_Report_v4_90_Ref_v42.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_Ref_v42.pdf)
+* documentation (en anglais) : [4D_Info_Report_v4_96_Ref_v43.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_Ref_v43.pdf)
 
 * base hôte (4D 19) utilisant des méthodes hôtes à inclure dans votre base (merci d'ajouter le composant dans le dossier "Components" pour tester) : [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 

@@ -146,7 +146,7 @@ You can analyze these reports:
 
 # Download
 
-* reference of the component: [4D_Info_Report_v4_90_Ref_v42.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_Ref_v42.pdf)
+* reference of the component: [4D_Info_Report_v4_96_Ref_v43.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_Ref_v43.pdf)
 
 * host database (4D 19) with some host shared methods example (please add the component in the "Components" folder for your test): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 

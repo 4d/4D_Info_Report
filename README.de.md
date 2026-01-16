@@ -146,7 +146,7 @@ Sie können diese Berichte analysieren:
 
 # Herunterladen
 
-* Referenz der Komponente: [4D_Info_Report_v4_90_Ref_v42.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_90_Ref_v42.pdf)
+* Referenz der Komponente: [4D_Info_Report_v4_96_Ref_v43.pdf](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_Ref_v43.pdf)
 
 * Host-Datenbank (4D 19) mit einigen Beispielen für gemeinsam genutzte Host-Methoden (bitte fügen Sie die Komponente für Ihren Test im Ordner „Components“ hinzu): [4D_Info_Report_Host_T_v9_19.zip](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_Host_T_v9_19.zip)
 
