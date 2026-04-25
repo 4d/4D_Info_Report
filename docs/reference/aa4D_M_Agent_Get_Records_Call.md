@@ -6,7 +6,7 @@ This page documents aa4D_M_Agent_Get_Records_Call in the 4D_Info_Report referenc
 
 ## Description
 
-The [aa4D_NP_Agent_Get_Records_Call](aa4D_NP_Agent_Get_Records_Call.md) command can retrieve calculated results (using a buffer of the last 100 values) depending of the criteria.  
+The [aa4D_M_Agent_Get_Records_Call](aa4D_M_Agent_Get_Records_Call.md) command can retrieve calculated results (using a buffer of the last 100 values) depending of the criteria.  
 **Note:** The stored procedure must be activated first ([aa4D_NP_Agent_Schedule_Call](aa4D_NP_Agent_Schedule_Call.md)).
 
 ---
