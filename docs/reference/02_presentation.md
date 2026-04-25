@@ -4,13 +4,6 @@
 
 This page documents Presentation in the 4D_Info_Report reference.
 
-## Quick Navigation
-
-- [Some information about this component:](#some-information-about-this-component:)
-- [Supported language for the interface and the content of the reports:](#supported-language-for-the-interface-and-the-content-of-the-reports:)
-- [Supported Operating Systems, processors:](#supported-operating-systems-processors:)
-- [Naming convention:](#naming-convention:)
-
 This information component is mainly designed to provide in readable text documents a description of:
 - The computer (Hardware / Operating system)
 - The version of the 4D Application
