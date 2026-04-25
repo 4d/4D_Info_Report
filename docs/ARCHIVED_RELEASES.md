@@ -14,14 +14,13 @@ For installation and usage details on legacy/manual setups, use:
 ## Legacy scope
 
 This archive scope covers:
-- Obsolete 4D versions (19 and 18)
-- Legacy versions (17 and older)
+- Obsolete 4D versions (19 and older)
 - Historical host sample databases
 - Historical PDF reference file
 
 ## Official lifecycle references
 
-- Current lifecycle page: [4D Product Lifecycle](https://fr.4d.com/cycle-de-vie-produits)
+- Current lifecycle page: [4D Product Lifecycle](https://us.4d.com/product-release-life-cycle)
 - Archive PDF from 4D: [ProductLifeCycleArchive-Older4Dversions.pdf](https://download.4d.com/Documents/Products_Documentation/Global/ProductLifeCycleArchive-Older4Dversions.pdf)
 
 ## Back
