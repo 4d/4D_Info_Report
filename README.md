@@ -91,7 +91,7 @@ For all component packages organized by official 4D lifecycle status (current, p
 
 - [Online Reference](docs/reference/01_introduction.md)
 
-- [PDF Reference](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_96_Ref_v43.pdf)
+- [PDF Reference](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_Ref_v44.pdf)
 
 ## 🧭 Additional Resources
 
