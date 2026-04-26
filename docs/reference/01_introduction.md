@@ -2,7 +2,7 @@
 
 (Also known as “The information Component”)
 
-![Logo](images/4dir.png)
+![Logo](images/02_presentation/image1.png)
 
 This page documents introduction in the 4D_Info_Report reference.
 
