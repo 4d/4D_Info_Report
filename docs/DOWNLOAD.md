@@ -10,24 +10,24 @@ Centralized downloads for all component versions, documentation and host samples
 
 ### 4D 21 Feature Release
 
-- [v4.97.0 for 4D 21 R3](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_0_21R3.zip)
-- [v4.97.0 for 4D 21 R2](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_0_21R2.zip)
+- [v4.97.0 for 4D 21 R3](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_1_21R3.zip)
+- [v4.97.0 for 4D 21 R2](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_1_21R2.zip)
 
 ### 4D 21 LTS
 
-- [v4.97.0 for 4D 21 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_0_21.zip)
+- [v4.97.0 for 4D 21 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_1_21.zip)
 
 ## 🟡 Previous 4D Version (Maintained)
 
 ### 4D 20 LTS
 
-- [v4.97.0 for 4D 20 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_0_20.zip)
+- [v4.97.0 for 4D 20 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_1_20.zip)
 
 ## 🔴 Obsolete 4D Versions (Archives)
 
 ### 4D 20 Feature Release
 
-- [v4.97.0 for 4D 20 R10](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_0_20R10.zip)
+- [v4.97.0 for 4D 20 R10](https://github.com/4d/4D_Info_Report/releases/download/4.97.0/4D_Info_Report_v4_97_1_20R10.zip)
 
 ### 4D 19 Feature Release
 
