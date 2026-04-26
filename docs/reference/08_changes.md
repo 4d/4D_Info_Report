@@ -2,12 +2,58 @@
 
 ## Navigation rapide
 
+- [Version 4.97](#version-497)
 - [Version 4.90](#version-490)
 - [Version 4.80](#version-480)
 - [Version 4.7x](#version-47x)
 - [Version 4.60](#version-460)
 - [Version 4.50](#version-450)
 - [Version 4.40](#version-440)
+
+## Version 4.97
+
+> [!NOTE]
+> Lecture guide: Nouveautés | Compatibilité | Méthodes
+
+### New in v4.97
+
+- In the Compare dialog (Server), **clicking another radio button now updates the corresponding value** (calculated via the parsing of the reports on the Server).
+
+### 4 new columns in the Compare dialog
+
+There are 4 new columns in the Compare dialog. These 4 new columns are included in exported files from the Compare dialog, not only in the Blob format export but also in the XML formatted export.
+
+There is also the path of the original folder of the reports included in the exported file (and the version of the component).
+
+### Two new shared methods for dialog margins
+
+Two new shared methods allow to interact with the dialog margin settings stored in `4DIR_Preferences.json`:
+
+**`aa4D_M_Dialogs_Margins_Set`** *(invisible)*
+
+Sets the minimal margins of all component dialogs (Report, Compare, Graph, Export) displayed in the MDI or current screen. Left margin is an optional parameter. The set values are stored in `4DIR_Preferences.json`:
+
+```xml
+<dialogs_margins>dialogs_margin_top="56" dialogs_margin_left="8"</dialogs_margins>
+```
+
+**`aa4D_M_Dialogs_Margins_Get`** *(invisible)*
+
+Returns an object with the current dialog margin settings:
+
+```json
+{"Dialogs_Top_Margin": 56, "Dialogs_Left_Margin": 8}
+```
+
+### Compatibility
+
+- Compatibility with **4D 21 R3** and the following Feature Release when available.
+- **v4.97.1** builds are available for **4D 18 LTS** and **4D 19 LTS** (same features, compatibility, and preferences as for 20 LTS or later).
+- This version also identifies all recent Mac models available in 2026.
+- SVG export including the Attention section is now compatible with Firefox.
+- Fluent UI compatibility note: without Fluent UI activated under Windows, or with 4D versions before 21 R2, the UI adapts accordingly.
+
+---
 
 ## Version 4.90
 

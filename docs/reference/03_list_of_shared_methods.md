@@ -31,6 +31,8 @@ This page documents List of the shared methods of the component *(by category)*:
 - [aa4D_NP_Reports_Max_Get_Limit *](aa4D_NP_Reports_Max_Get_Limit.md)
 - [aa4D_NP_Agent_Schedule_Call *](aa4D_NP_Agent_Schedule_Call.md)
 - [aa4D_M_Agent_Get_Records_Call *](aa4D_M_Agent_Get_Records_Call.md)
+- [aa4D_M_Dialogs_Margins_Set *](aa4D_M_Dialogs_Margins_Set.md)
+- [aa4D_M_Dialogs_Margins_Get *](aa4D_M_Dialogs_Margins_Get.md)
 
 <!-- NAV_BUTTONS_START -->
 ## Navigation
