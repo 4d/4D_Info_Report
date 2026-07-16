@@ -10,24 +10,25 @@ Centralized downloads for all component versions, documentation and host samples
 
 ### 4D 21 Feature Release
 
-- [v4.97.2 for 4D 21 R3](https://github.com/4d/4D_Info_Report/releases/download/4.97.2/4D_Info_Report_v4_97_2_21R3.zip)
-- [v4.97.2 for 4D 21 R2](https://github.com/4d/4D_Info_Report/releases/download/4.97.2/4D_Info_Report_v4_97_2_21R2.zip)
+- [v4.97.5 for 4D 21 R4](https://github.com/4d/4D_Info_Report/releases/download/4.97.5/4D_Info_Report_v4_97_5_21R4.zip)
+- [v4.97.5 for 4D 21 R3](https://github.com/4d/4D_Info_Report/releases/download/4.97.5/4D_Info_Report_v4_97_5_21R3.zip)
+- [v4.97.5 for 4D 21 R2](https://github.com/4d/4D_Info_Report/releases/download/4.97.5/4D_Info_Report_v4_97_5_21R2.zip)
 
 ### 4D 21 LTS
 
-- [v4.97.2 for 4D 21 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.2/4D_Info_Report_v4_97_2_21.zip)
+- [v4.97.5 for 4D 21 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.5/4D_Info_Report_v4_97_5_21.zip)
 
 ## 🟡 Previous 4D Version (Maintained)
 
 ### 4D 20 LTS
 
-- [v4.97.2 for 4D 20 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.2/4D_Info_Report_v4_97_2_20.zip)
+- [v4.97.5 for 4D 20 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.5/4D_Info_Report_v4_97_5_20.zip)
 
 ## 🔴 Obsolete 4D Versions (Archives)
 
 ### 4D 20 Feature Release
 
-- [v4.97.2 for 4D 20 R10](https://github.com/4d/4D_Info_Report/releases/download/4.97.2/4D_Info_Report_v4_97_2_20R10.zip)
+- [v4.97.5 for 4D 20 R10](https://github.com/4d/4D_Info_Report/releases/download/4.97.5/4D_Info_Report_v4_97_5_20R10.zip)
 
 ### 4D 19 Feature Release
 
@@ -36,12 +37,12 @@ Centralized downloads for all component versions, documentation and host samples
 
 ### 4D 19
 
-- [v4.97.2 for 4D 19 (Intel/AMD only)](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_2_I_19.zip)
-- [v4.97.2 for 4D 19](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_2_IS_19.zip)
+- [v4.97.5 for 4D 19 (Intel/AMD only)](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_5_I_19.zip)
+- [v4.97.5 for 4D 19](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_5_IS_19.zip)
 
 ### 4D 18
 
-- [v4.97.1 for 4D 18](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_1_v18.zip)
+- [v4.97.5 for 4D 18](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_5_v18.zip)
 
 ### 4D 17
 
