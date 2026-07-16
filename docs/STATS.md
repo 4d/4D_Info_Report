@@ -9,18 +9,23 @@ Live download counters for each file, powered by GitHub badge endpoints. Use thi
 | 4D Version | Variant | File | Downloads |
 |---|---|---|---|
 | 21 R4 | All processors | 4D_Info_Report_v4_97_5_21R4.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/4.97.5/4D_Info_Report_v4_97_5_21R4.zip) |
+| | | 4D_Info_Report.zip (dependency manager) | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/21R4.3/4D_Info_Report.zip) |
 | 21 R3 | All processors | 4D_Info_Report_v4_97_5_21R3.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/4.97.5/4D_Info_Report_v4_97_5_21R3.zip) |
+| | | 4D_Info_Report.zip (dependency manager) | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/21R3.3/4D_Info_Report.zip) |
 | 21 R2 | All processors | 4D_Info_Report_v4_97_5_21R2.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/4.97.5/4D_Info_Report_v4_97_5_21R2.zip) |
+| | | 4D_Info_Report.zip (dependency manager) | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/21R2.3/4D_Info_Report.zip) |
 | 21 LTS | All processors | 4D_Info_Report_v4_97_5_21.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/4.97.5/4D_Info_Report_v4_97_5_21.zip) |
+| | | 4D_Info_Report.zip (dependency manager) | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/21.3/4D_Info_Report.zip) |
 | 20 R10 | All processors | 4D_Info_Report_v4_97_5_20R10.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/4.97.5/4D_Info_Report_v4_97_5_20R10.zip) |
+| | | 4D_Info_Report.zip (dependency manager) | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/20R10.3/4D_Info_Report.zip) |
 | 20 LTS | All processors | 4D_Info_Report_v4_97_5_20.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/4.97.5/4D_Info_Report_v4_97_5_20.zip) |
 | 19 R6 | Intel/AMD only | 4D_Info_Report_v4_83_I_19R6.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_83_I_19R6.zip) |
-| 19 R6 | All processors | 4D_Info_Report_v4_83_IS_19R6.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_83_IS_19R6.zip) |
+| | All processors | 4D_Info_Report_v4_83_IS_19R6.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_83_IS_19R6.zip) |
 | 19 | Intel/AMD only | 4D_Info_Report_v4_97_5_I_19.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_97_5_I_19.zip) |
-| 19 | All processors | 4D_Info_Report_v4_97_5_IS_19.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_97_5_IS_19.zip) |
+| | All processors | 4D_Info_Report_v4_97_5_IS_19.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_97_5_IS_19.zip) |
 | 18 | Standard | 4D_Info_Report_v4_97_5_v18.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_97_5_v18.zip) |
 | 17 | 64-bit only | 4D_Info_Report_v4_33_64-bit_v17.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_33_64-bit_v17.zip) |
-| 17 | Standard | 4D_Info_Report_v4_33_v17.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_33_v17.zip) |
+| | Standard | 4D_Info_Report_v4_33_v17.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_33_v17.zip) |
 | 16 | Standard | 4D_Info_Report_v4_9rZC_v16_rev3.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_9rZC_v16_rev3.zip) |
 | 15 | Standard | 4D_Info_Report_v4_9rZ8_v15_rev2.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_9rZ8_v15_rev2.zip) |
 | 14 | Standard | 4D_Info_Report_v4_9rZ2_v14_rev1.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_9rZ2_v14_rev1.zip) |
