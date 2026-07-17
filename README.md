@@ -32,8 +32,10 @@
 6. Click **Add** and restart 4D to activate the component
 
 > For your information, the component will be downloaded into the:
-> * ~/Library/Caches/4D/Dependencies/.github/4d/4D_Info_Report/ (on Mac)
-> * ~\AppData\Local\4D\Dependencies\\.github\4d\4D_Info_Report\ (on Windows)
+> * ~/Library/Caches/4D/Dependencies/.github/{4D_app_name}/4D_Info_Report/ (on Mac)
+> * ~\AppData\Local\4D\Dependencies\\.github\{4D_app_name}\4D_Info_Report\ (on Windows)
+
+> **Note:** {4D_app_name} is your 4D application name (4D, 4D Server or your custom engined application).
 
 **Reference:** [Integrate 4D components directly from GitHub](https://blog.4d.com/integrate-4d-components-directly-from-github/)
 
