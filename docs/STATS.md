@@ -48,7 +48,7 @@ Live download counters for each file, powered by GitHub badge endpoints. Use thi
 
 ## 🌐 Aggregated & External Statistics
 
-- Total downloads: ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/total.svg)
+- Total downloads: ![Downloads](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/CGareau/dd2aa26e5b6c4152e80e7d3d09f2486a/raw/download_inforeport.json)
 - [Basic stats](https://githubstats0.firebaseapp.com/)
 - [Complete stats](https://qii404.me/github-release-statistics/)
 - [GitHub traffic](https://github.com/4d/4D_Info_Report/graphs/traffic)
