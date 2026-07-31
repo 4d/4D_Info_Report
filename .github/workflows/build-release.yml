@@ -89,7 +89,7 @@ jobs:
         with:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D_Info_Report.zip
-          tag: "20R10.4"
+          tag: "20R10.5"
           body: for automatic download via dependencies manager (see readme)
           file_glob: true
           overwrite: true
@@ -106,7 +106,7 @@ jobs:
         with:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D_Info_Report.zip
-          tag: "21.4"
+          tag: "21.5"
           body: for automatic download via dependencies manager (see readme)
           file_glob: true
           overwrite: true
@@ -123,7 +123,7 @@ jobs:
         with:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D_Info_Report.zip
-          tag: "21R2.4"
+          tag: "21R2.5"
           body: for automatic download via dependencies manager (see readme)
           file_glob: true
           overwrite: true
@@ -140,7 +140,7 @@ jobs:
         with:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D_Info_Report.zip
-          tag: "21R3.4"
+          tag: "21R3.5"
           body: for automatic download via dependencies manager (see readme)
           file_glob: true
           overwrite: true
@@ -157,7 +157,7 @@ jobs:
         with:
           repo_token: ${{ secrets.TARGET_TOKEN_GITHUB }}
           file: ./4DIR/4D_Info_Report.zip
-          tag: "21R4.4"
+          tag: "21R4.5"
           body: for automatic download via dependencies manager (see readme)
           file_glob: true
           overwrite: true
