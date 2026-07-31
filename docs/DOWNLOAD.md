@@ -42,7 +42,7 @@ Centralized downloads for all component versions, documentation and host samples
 
 ### 4D 18
 
-- [v4.97.6 for 4D 18](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_6_v18.zip)
+- [v4.97.5 for 4D 18](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_5_v18.zip)
 
 ### 4D 17
 

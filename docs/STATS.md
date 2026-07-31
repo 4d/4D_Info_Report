@@ -23,7 +23,7 @@ Live download counters for each file, powered by GitHub badge endpoints. Use thi
 | | All processors | 4D_Info_Report_v4_83_IS_19R6.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_83_IS_19R6.zip) |
 | 19 | Intel/AMD only | 4D_Info_Report_v4_97_6_I_19.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_97_6_I_19.zip) |
 | | All processors | 4D_Info_Report_v4_97_6_IS_19.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_97_6_IS_19.zip) |
-| 18 | Standard | 4D_Info_Report_v4_97_6_v18.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_97_6_v18.zip) |
+| 18 | Standard | 4D_Info_Report_v4_97_5_v18.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_97_5_v18.zip) |
 | 17 | 64-bit only | 4D_Info_Report_v4_33_64-bit_v17.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_33_64-bit_v17.zip) |
 | | Standard | 4D_Info_Report_v4_33_v17.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_33_v17.zip) |
 | 16 | Standard | 4D_Info_Report_v4_9rZC_v16_rev3.zip | ![Downloads](https://img.shields.io/github/downloads/4d/4D_Info_Report/archives/4D_Info_Report_v4_9rZC_v16_rev3.zip) |
