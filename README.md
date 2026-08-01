@@ -33,7 +33,7 @@
 
 > For your information, the component will be downloaded into the:
 > * ~/Library/Caches/4D/Dependencies/.github/{4D_app_name}/4D_Info_Report/ (on Mac)
-> * ~\AppData\Local\4D\Dependencies\\.github\{4D_app_name}\4D_Info_Report\ (on Windows)
+> * ~\AppData\Local\4D\Dependencies\\.github\\{4D_app_name}\4D_Info_Report\ (on Windows)
 
 > **Note:** {4D_app_name} is your 4D application name (4D, 4D Server or your custom engined application).
 
