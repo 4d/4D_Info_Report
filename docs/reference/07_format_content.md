@@ -131,7 +131,7 @@ Size:   	14 589 248 KB		  Modif: 	2025_07_30__17_54_42
 <------- Components info ------ 
 
     --- Database ---
-4D_Info_Report_v4.4dbase   release_tag (Manifest):  4.90 for 4D 20
+4D_Info_Report.4dbase   release_tag (Manifest):  4.90 for 4D 20
 --- Application ---
  4D NetKit.4dbase
 4D Progress.4dbase

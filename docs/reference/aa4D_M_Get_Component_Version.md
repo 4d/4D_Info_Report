@@ -6,7 +6,7 @@ This page documents aa4D_M_Get_Component_Version in the 4D_Info_Report reference
 
 ## Description
 
-The **aa4D_M_Get_Component_Version** function lets you get the current version of the component 4D_Info_Report_v4.
+The **aa4D_M_Get_Component_Version** function lets you get the current version of the component 4D_Info_Report.
 
 Example of content in the pointed variable, executing this shared method: `"4.96.1 20R10 (2026-01-13)"`
 

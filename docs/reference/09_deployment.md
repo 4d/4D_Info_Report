@@ -130,7 +130,7 @@ To ease better usage of the component, there is a small Host template database, 
 // -  «aa4D_M_Host_Is_in_Unicode» (deprecated now, replaced by aa4D_Host_GetDBParam)
 // -  «aa4D_M_Host_Get_both_Timeout» (can use aa4D_Host_GetDBParam instead)
 // You must keep their original name, and set «shared by component and host database»
-// Reminder: to use the component «4D_Info_Report_v4»,
+// Reminder: to use the component «4D_Info_Report»,
 // just add it to the «Components» folder of the Host database or the 4D Application.
 // (if this «Components» folder does not exist, just create it).
 //

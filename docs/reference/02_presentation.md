@@ -38,7 +38,7 @@ It will only describe some basic elements of the structure (number and name of t
 It will get some details on the computer and operating system, and the path names used for the database and the application.
 
 **Compatibility:**  
-4D_Info_Report_v4 can handle reports created by aa4D_Report (since v3-2011), with French or English content (the two possible languages currently used in the reports).
+4D_Info_Report can handle reports created by aa4D_Report (since v3-2011), with French or English content (the two possible languages currently used in the reports).
 
 ## Supported language for the interface and the content of the reports:
 (Based on the release of 4D used: in French with a French release of 4D, otherwise in English.  
@@ -49,7 +49,7 @@ All Operating systems compatible with 4D, Intel/AMD processors, Apple Silicon na
 
 ## Naming convention:
 - **Name of the component:**  
-  The current name of the component is **4D_Info_Report_v4**.  
+  The current name of the component is **4D_Info_Report**.  
   (« _v4_ » is for all v4.x versions and may be replaced later by “4D_Info_Report_v5”).
 
   The current v4.90.x update for 4D 20 LTS or upper are available via the free 4D Github section.  
