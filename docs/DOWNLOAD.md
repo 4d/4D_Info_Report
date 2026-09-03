@@ -10,25 +10,25 @@ Centralized downloads for all component versions, documentation and host samples
 
 ### 4D 21 Feature Release
 
-- [v4.97.6 for 4D 21 R4](https://github.com/4d/4D_Info_Report/releases/download/4.97.6/4D_Info_Report_v4_97_6_21R4.zip)
-- [v4.97.6 for 4D 21 R3](https://github.com/4d/4D_Info_Report/releases/download/4.97.6/4D_Info_Report_v4_97_6_21R3.zip)
-- [v4.97.6 for 4D 21 R2](https://github.com/4d/4D_Info_Report/releases/download/4.97.6/4D_Info_Report_v4_97_6_21R2.zip)
+- [v4.98.1 for 4D 21 R4](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_21R4.zip)
+- [v4.98.1 for 4D 21 R3](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_21R3.zip)
+- [v4.98.1 for 4D 21 R2](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_21R2.zip)
 
 ### 4D 21 LTS
 
-- [v4.97.6 for 4D 21 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.6/4D_Info_Report_v4_97_6_21.zip)
+- [v4.98.1 for 4D 21 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_21.zip)
 
 ## 🟡 Previous 4D Version (Maintained)
 
 ### 4D 20 LTS
 
-- [v4.97.6 for 4D 20 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.97.6/4D_Info_Report_v4_97_6_20.zip)
+- [v4.98.1 for 4D 20 LTS](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_20.zip)
 
 ## 🔴 Obsolete 4D Versions (Archives)
 
 ### 4D 20 Feature Release
 
-- [v4.97.6 for 4D 20 R10](https://github.com/4d/4D_Info_Report/releases/download/4.97.6/4D_Info_Report_v4_97_6_20R10.zip)
+- [v4.98.1 for 4D 20 R10](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_20R10.zip)
 
 ### 4D 19 Feature Release
 
@@ -37,8 +37,8 @@ Centralized downloads for all component versions, documentation and host samples
 
 ### 4D 19
 
-- [v4.97.6 for 4D 19 (Intel/AMD only)](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_6_I_19.zip)
-- [v4.97.6 for 4D 19](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_6_IS_19.zip)
+- [v4.98.1 for 4D 19 (Intel/AMD only)](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_98_1_I_19.zip)
+- [v4.98.1 for 4D 19](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_98_1_IS_19.zip)
 
 ### 4D 18
 
@@ -81,7 +81,7 @@ Centralized downloads for all component versions, documentation and host samples
 
 - [Online Reference Documentation](reference/01_introduction.md)
 
-- [PDF reference documentation](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_97_Ref_v44.pdf)
+- [PDF reference documentation](https://github.com/4d/4D_Info_Report/releases/download/archives/4D_Info_Report_v4_98_Ref_v45.pdf)
 
 ### Host sample databases
 
