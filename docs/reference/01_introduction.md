@@ -6,8 +6,8 @@
 
 This page documents introduction in the 4D_Info_Report reference.
 
-4D_Info_Report Reference version 44, set April 26, 2026, by Thomas Schlumberger, for 4D.
-This documentation matches version 4.97 of the component 4D_Info_Report.
+4D_Info_Report Reference version 45, set September 3, 2026, by Thomas Schlumberger, for 4D.
+This documentation matches version 4.98 of the component 4D_Info_Report.
 
 - [Presentation](02_presentation.md)
 - [List of the shared methods](03_list_of_shared_methods.md)
