@@ -70,7 +70,7 @@ If(Find in array($at_Components;"4D_Info_Report@")>0)
 End if
 ```
 
-> **Important:** Whatever option you choose (**A** or **B**), reports are generated in `Folder_reports` next to the data file.
+> **Important:** Whatever option you choose (**A** or **B**), reports are generated in `Folder_reports` inside the 'Logs' folder (inside the Data folder that contains the data file).
 
 ---
 
