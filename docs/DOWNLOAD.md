@@ -10,9 +10,9 @@ Centralized downloads for all component versions, documentation and host samples
 
 ### 4D 21 Feature Release
 
+- [v4.98.1 for 4D 21 R5](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_21R5.zip)
 - [v4.98.1 for 4D 21 R4](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_21R4.zip)
 - [v4.98.1 for 4D 21 R3](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_21R3.zip)
-- [v4.98.1 for 4D 21 R2](https://github.com/4d/4D_Info_Report/releases/download/4.98.1/4D_Info_Report_v4_98_1_21R2.zip)
 
 ### 4D 21 LTS
 
